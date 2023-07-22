@@ -1,13 +1,11 @@
 import React from 'react'
 import "./App.css";
+import Contact from './components/sections/contact/Contact';
 
 const App = () => {
   return (
     <div>
-      <h1>hello</h1>
-      <section>
-        {/* sections components */}
-      </section>
+        <Contact/>
     </div>
   )
 }
