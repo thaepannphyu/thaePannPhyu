@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+  font-family: 'Rubik', sans-serif;
+}
+
+.primary-text{
+  color: #525FE1;
+}
+
+.primary-bg{
+  background-color: #525FE1;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
