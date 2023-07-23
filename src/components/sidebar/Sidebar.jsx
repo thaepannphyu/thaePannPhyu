@@ -6,14 +6,35 @@ import {MdOutlineWorkOutline} from "react-icons/md"
 import {FiPhoneOutgoing} from "react-icons/fi"
 import { Burger } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
+import { AiOutlineArrowUp } from "react-icons/ai";
+import "../footer/footer.css"
+import { useEffect } from 'react'
 
 const Sidebar = () => {
   // sidebar active class 
   const [active,setActive] = useState("home");
+  // back to top show 
+  const [showBackToTop,setShowBackToTop] = useState(false);
 
   // mantine burger 
   const [opened, { toggle }] = useDisclosure(false);
   const label = opened ? 'Close navigation' : 'Open navigation';
+
+  // back to top
+  const backToTop = ()=>{
+    document.documentElement.scrollTop = 0;
+  }
+
+  // back to top show 
+  useEffect(()=>{
+    window.addEventListener("scroll", ()=>{
+      if(window.scrollY > 500){
+        setShowBackToTop(true);
+      }else{
+        setShowBackToTop(false);
+      }
+    })
+  },[])
 
   return (
     <div>
@@ -60,11 +81,21 @@ const Sidebar = () => {
         </div>
 
       {/* menu burger */}
-      <div className=' fixed right-5 bottom-5 hidden max-md:block'>
+      <div className='z-50 fixed right-5 bottom-6 hidden max-md:block'>
         <div className=' cursor-pointer primary-bg w-[60px] h-[60px] text-center pt-3 rounded-full'>
         <Burger opened={opened} onClick={toggle} aria-label={label} color="#fff" />
         </div>
       </div>
+
+      {/* back to top  */}
+      <div className={`${showBackToTop ? "block" : "hidden"}`}>
+        <div onClick={backToTop} className="fixed right-5 bottom-6 z-50 max-md:hidden z-5 cursor-pointer shadow-light">
+          <div className=" p-2 text-xl hover:bg-gray-900 dark:hover:bg-[#DBD9D9] duration-500 bg-black text-white dark:bg-white dark:text-black rounded dark:shadow">
+          <AiOutlineArrowUp/>
+          </div>
+        </div>
+      </div>
+
 
     </div>
   )
