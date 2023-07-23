@@ -19,7 +19,7 @@ const Sidebar = () => {
     <div>
       {/* sidebar  */}
         <div className={`z-50 h-screen fixed flex flex-col bg-white dark:bg-[#0c0c14] 
-            max-md:absolute ${opened ? "max-md:left-0" : "max-md:left-[-300px]"}
+             ${opened ? "max-md:left-0" : "max-md:left-[-300px]"}
             transition-all ease-in duration-500`}>
             <div className=' primary-bg text-white text-4xl max-[400px]:text-3xl font-bold flex justify-center pt-5
             max-[400px]:pt-4 h-[90px] max-[400px]:h-[80px]'>
