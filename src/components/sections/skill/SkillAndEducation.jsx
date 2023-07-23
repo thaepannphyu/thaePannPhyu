@@ -8,7 +8,7 @@ const SkillAndEducation = () => {
       <h2 className=" text-left font-semibold text-3xl font-bold">
         Education & Skills
       </h2>
-      <div className=" flex flex-col lg:flex-row gap-12 lg:gap-[7%] mt-14">
+      <div className=" flex flex-col lg:flex-row gap-12 lg:gap-[7%] mt-10">
         {/* education  */}
         <div className=" lg:w-[33%] md:w-full bg-[#f7f7ff] rounded p-3">
           <Education />
