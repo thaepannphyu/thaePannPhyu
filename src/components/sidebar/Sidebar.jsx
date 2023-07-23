@@ -26,28 +26,28 @@ const Sidebar = () => {
                 <h1>K</h1>
             </div>
 
-            <div className=' border-r h-screen text-gray-600 dark:text-white text-3xl max-[400px]:text-2xl flex flex-col justify-center item-center'>
+            <div className=' border-r dark:border-[#25252C] h-screen text-gray-600 dark:text-white text-3xl max-[400px]:text-2xl flex flex-col justify-center item-center'>
                 <div 
                   onClick={() => setActive("home")} 
-                  className={`${active == "home" ? "primary-text" : ""} transition-all duration-300 border-b p-6 cursor-pointer`}>
+                  className={`${active == "home" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer`}>
                   <FaHome/>
                 </div>
 
                 <div 
                   onClick={() => setActive("about")} 
-                  className={`${active == "about" ? "primary-text" : ""} transition-all duration-100 border-b p-6 cursor-pointer`}>
+                  className={`${active == "about" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer`}>
                   <BsPerson/>
                 </div>
 
                 <div 
                   onClick={() => setActive("resume")} 
-                  className={`${active == "resume" ? "primary-text" : ""} transition-all duration-100 border-b p-6 cursor-pointer`}>
+                  className={`${active == "resume" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer`}>
                   <AiOutlineFileText/>
                 </div>
 
                 <div 
                   onClick={() => setActive("project")} 
-                  className={`${active == "project" ? "primary-text" : ""} transition-all duration-100 border-b p-6 cursor-pointer`}>
+                  className={`${active == "project" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer`}>
                   <MdOutlineWorkOutline/>
                 </div>
 

@@ -7,7 +7,7 @@ import { BiLogoPinterestAlt } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className="bg-white dark:bg-[#0B0B13] flex justify-center border-t">
+    <div className="bg-white dark:bg-[#0B0B13] flex justify-center border-t dark:dark:border-[#25252C]">
       <div className="w-[90%] flex max-md:flex-col max-md:gap-4 justify-between my-6">
         <div className=" flex gap-4 max-md:mx-auto flex-wrap">
           <BiLogoFacebook className=" text-black dark:text-white hover:text-[#525FE1] duration-300 text-lg cursor-pointer" />
