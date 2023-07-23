@@ -6,7 +6,7 @@ import {MdOutlineWorkOutline} from "react-icons/md"
 import {FiPhoneOutgoing} from "react-icons/fi"
 import { Burger } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { AiOutlineArrowUp } from "react-icons/ai";
+import { MdOutlineKeyboardArrowUp } from "react-icons/md";
 import "../footer/footer.css"
 import { useEffect } from 'react'
 
@@ -89,10 +89,16 @@ const Sidebar = () => {
 
       {/* back to top  */}
       <div className={`${showBackToTop ? "block" : "hidden"}`}>
-        <div onClick={backToTop} className="fixed right-5 bottom-6 z-50 max-md:hidden z-5 cursor-pointer shadow-light">
+        {/* <div  className="fixed right-5 bottom-6 z-50 max-md:hidden z-5 cursor-pointer shadow-light">
           <div className=" p-2 text-xl hover:bg-gray-900 dark:hover:bg-[#DBD9D9] duration-500 bg-black text-white dark:bg-white dark:text-black rounded dark:shadow">
           <AiOutlineArrowUp/>
           </div>
+        </div> */}
+
+        <div onClick={backToTop} className='z-50 fixed right-5 bottom-6 max-md:hidden'>
+        <div className=' cursor-pointer primary-bg w-[50px] h-[50px] flex justify-center item-center pt-2 rounded-full'>
+        <MdOutlineKeyboardArrowUp className="text-3xl text-white font-bold"/>
+        </div>
         </div>
       </div>
 
