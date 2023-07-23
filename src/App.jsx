@@ -5,6 +5,7 @@ import Experience from "./components/sections/experience/Experience";
 import Sidebar from './components/sidebar/Sidebar';
 import Contact from "./components/sections/contact/Contact";
 import Footer from './components/footer/Footer';
+import About from "./components/sections/about/About";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         </div>   
 
         <div className="w-full">
+          <section><About/></section>
           <section><Experience /></section>
           <section><SkillAndEducation /></section>
           <section><Contact/></section>
