@@ -16,7 +16,7 @@ const Skill = () => {
             <ScrollTrigger
               onEnter={() => setCount(true)}
               onExit={() => setCount(false)}>
-              <h2 className=" flex items-center text-3xl">
+              <h2 className=" flex items-center text-3xl font-medium">
                 {count && <CountUp start={0} end={92} duration={2} delay={0} />}{" "}
                 %
               </h2>
@@ -38,7 +38,7 @@ const Skill = () => {
             <ScrollTrigger
               onEnter={() => setCount(true)}
               onExit={() => setCount(false)}>
-              <h2 className=" flex items-center text-3xl">
+              <h2 className=" flex items-center text-3xl font-medium">
                 {count && <CountUp start={0} end={62} duration={2} delay={0} />}{" "}
                 %
               </h2>
@@ -59,7 +59,7 @@ const Skill = () => {
             <ScrollTrigger
               onEnter={() => setCount(true)}
               onExit={() => setCount(false)}>
-              <h2 className=" flex items-center text-3xl">
+              <h2 className=" flex items-center text-3xl font-medium">
                 {count && <CountUp start={0} end={80} duration={2} delay={0} />}{" "}
                 %
               </h2>
@@ -80,7 +80,7 @@ const Skill = () => {
             <ScrollTrigger
               onEnter={() => setCount(true)}
               onExit={() => setCount(false)}>
-              <h2 className=" flex items-center text-3xl ">
+              <h2 className=" flex items-center text-3xl font-medium ">
                 {count && <CountUp start={0} end={90} duration={2} delay={0} />}{" "}
                 %
               </h2>
@@ -101,7 +101,7 @@ const Skill = () => {
             <ScrollTrigger
               onEnter={() => setCount(true)}
               onExit={() => setCount(false)}>
-              <h2 className=" flex items-center text-3xl">
+              <h2 className=" flex items-center text-3xl font-medium">
                 {count && <CountUp start={0} end={70} duration={2} delay={0} />}{" "}
                 %
               </h2>

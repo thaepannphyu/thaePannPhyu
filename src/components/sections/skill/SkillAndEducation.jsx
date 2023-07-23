@@ -4,8 +4,8 @@ import Education from "./Education";
 
 const SkillAndEducation = () => {
   return (
-    <div className=" w-[90%] mx-auto">
-      <h2 className=" text-left font-semibold text-2xl tracking-wider">
+    <div className=" w-[90%] mx-auto my-24">
+      <h2 className=" text-left font-semibold text-3xl font-bold">
         Education & Skills
       </h2>
       <div className=" flex flex-col lg:flex-row gap-12 lg:gap-[7%] mt-14">
