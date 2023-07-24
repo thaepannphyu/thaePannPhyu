@@ -39,7 +39,7 @@ const DarkMode = () => {
   };
   console.log(theme);
   return (
-    <div className=" fixed right-0 top-[45%]">
+    <div className=" fixed right-0 top-[45%] z-50">
       <button
         onClick={handleThemeSwitch}
         className={`bgTransparent1 w-16 h-12 rounded-l-full flex justify-center items-center`}>
