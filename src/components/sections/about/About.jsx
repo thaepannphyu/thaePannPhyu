@@ -16,84 +16,42 @@ const About = () => {
           <div className="w-[40%] max-lg:w-full flex flex-col justify-center item-center gap-8">
             {/* img circle  */}
             <div className="max-lg:flex max-lg:justify-center">
-            <div className="relative w-[280px] h-[280px] max-[330px]:w-[250px] max-[330px]:h-[250px] max-[300px]:w-[220px] max-[300px]:h-[220px] max-[283px]:w-[190px] max-[283px]:h-[190px]">
+              <div className="relative w-[280px] h-[280px] max-[330px]:w-[250px] max-[330px]:h-[250px] max-[300px]:w-[220px] max-[300px]:h-[220px] max-[283px]:w-[190px] max-[283px]:h-[190px]">
 
-<div className="bg-gray-900 w-[280px] h-[280px] max-[330px]:w-[250px] max-[330px]:h-[250px] max-[300px]:w-[220px] max-[300px]:h-[220px] max-[283px]:w-[190px] max-[283px]:h-[190px] lg:ml-3 rounded-full border-4 border-blue-600 overflow-hidden ">
-  <img src={kzt} alt="" className="w-[230px] max-[330px]:w-[200px] max-[300px]:w-[170px] max-[283px]:w-[150px] object-cover relative top-1 max-[330px]:top-2 left-8" />
-  {/* icon  */}
-  <div className="">
-      <div className=" bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[8%] left-[16%] max-lg:left-[11%]">
-          <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
-          <BiLogoFacebook />
-          </p>
-      </div>
-      <div className=" bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[-2%] left-[30%] max-lg:left-[25%] max-lg:bottom-[-1%]">
-          <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
-          <BiLogoTwitter />
-          </p>
-      </div>
-      <div className= " bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[-5%] right-[42%] max-lg:right-[47%] max-[300px]:right-[45%]">
-          <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
-          <BiLogoInstagram />
-          </p>
-      </div>
-      <div className=" bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[-2%] right-[25%] max-lg:right-[30%]">
-          <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
-          <BiLogoGithub />
-          </p>
-      </div>
-      <div className=" bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[6%] right-[9%] max-lg:right-[14%] max-lg:bottom-[5%]">
-          <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
-          <SiNetlify />
-          </p>
-      </div>
-  </div>
-</div>
-</div>
+                <div className="bg-gray-900 w-[280px] h-[280px] max-[330px]:w-[250px] max-[330px]:h-[250px] max-[300px]:w-[220px] max-[300px]:h-[220px] max-[283px]:w-[190px] max-[283px]:h-[190px] lg:ml-3 rounded-full border-4 border-blue-600 overflow-hidden ">
+                  <img src={kzt} alt="" className="w-[230px] max-[330px]:w-[200px] max-[300px]:w-[170px] max-[283px]:w-[150px] object-cover relative top-1 max-[330px]:top-2 left-8" />
+                {/* icon  */}
+                <div className="">
+                    <div className=" bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[8%] left-[16%] max-lg:left-[11%]">
+                        <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
+                        <BiLogoFacebook />
+                        </p>
+                    </div>
+                    <div className=" bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[-2%] left-[30%] max-lg:left-[25%] max-lg:bottom-[-1%]">
+                        <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
+                        <BiLogoTwitter />
+                        </p>
+                    </div>
+                    <div className= " bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[-5%] right-[42%] max-lg:right-[47%] max-[300px]:right-[45%]">
+                        <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
+                        <BiLogoInstagram />
+                        </p>
+                    </div>
+                    <div className=" bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[-2%] right-[25%] max-lg:right-[30%]">
+                        <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
+                        <BiLogoGithub />
+                        </p>
+                    </div>
+                    <div className=" bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[6%] right-[9%] max-lg:right-[14%] max-lg:bottom-[5%]">
+                        <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
+                        <SiNetlify />
+                        </p>
+                    </div>
+                </div>
+
+                </div>
+              </div>
             </div>
-
-            {/* <div className="max-lg:flex max-lg:justify-center relative icon-parent"> */}
-              {/* img  */}
-              {/* <div className=" bg-blue-600 w-[310px] h-[310px] flex justify-center item-center rounded-full">
-                <div className="m-auto z-2 bg-gray-900 w-[300px] h-[300px] rounded-full relative overflow-hidden">
-                  <img
-                    src={kzt}
-                    alt=""
-                    className="z-0 w-[250px] object-cover top-1 left-9 absolute"
-                  />
-                </div>
-              </div> */}
-
-              {/* icon  */}
-              {/* <div className=" absolute bottom-0 flex gap-8 icon">
-                <div className=" bg-white rounded-full p-[2px]">
-                    <p className=" bg-[#0b0b13] text-xl text-white p-1 rounded-full">
-                    <BiLogoFacebook />
-                    </p>
-                </div>
-                <div className=" bg-white rounded-full p-[2px]">
-                    <p className=" bg-[#0b0b13] text-xl text-white p-1 rounded-full">
-                    <BiLogoTwitter />
-                    </p>
-                </div>
-                <div className= " bg-white rounded-full p-[2px]">
-                    <p className=" bg-[#0b0b13] text-xl text-white p-1 rounded-full">
-                    <BiLogoInstagram />
-                    </p>
-                </div>
-                <div className=" bg-white rounded-full p-[2px]">
-                    <p className=" bg-[#0b0b13] text-xl text-white p-1 rounded-full">
-                    <BiLogoGithub />
-                    </p>
-                </div>
-                <div className=" bg-white rounded-full p-[2px]">
-                    <p className=" bg-[#0b0b13] text-xl text-white p-1 rounded-full">
-                    <SiNetlify />
-                    </p>
-                </div>
-              </div> */}
-
-            {/* </div> */}
 
             <div className=" text-center w-[310px] max-lg:w-full max-lg:mb-12 ">
               <h1 className=" text-gray-800 dark:text-[#9e9ea0]">
@@ -103,6 +61,7 @@ const About = () => {
                 Khine Zin Thin
               </h1>
             </div>
+            
           </div>
 
           {/*right biography */}
