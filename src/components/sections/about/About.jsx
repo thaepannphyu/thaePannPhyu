@@ -22,28 +22,28 @@ const About = () => {
                   <img src={kzt} alt="" className="w-[230px] max-[330px]:w-[200px] max-[300px]:w-[170px] max-[283px]:w-[150px] object-cover relative top-1 max-[330px]:top-2 left-8" />
                 {/* icon  */}
                 <div className="">
-                    <div className=" bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[8%] left-[16%] max-lg:left-[11%]">
-                        <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
+                    <div className=" bg-white icon duration-500 cursor-pointer w-8 h-8 rounded-full p-[2px] absolute bottom-[8%] left-[16%] max-lg:left-[11%]">
+                        <p className=" bg-[#0b0b13] hover:bg-blue-600 duration-300 w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
                         <BiLogoFacebook />
                         </p>
                     </div>
-                    <div className=" bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[-2%] left-[30%] max-lg:left-[25%] max-lg:bottom-[-1%]">
-                        <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
+                    <div className=" bg-white icon duration-500 cursor-pointer w-8 h-8 rounded-full p-[2px] absolute bottom-[-2%] left-[30%] max-lg:left-[25%] max-lg:bottom-[-1%]">
+                        <p className=" bg-[#0b0b13] hover:bg-blue-600 duration-300 w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
                         <BiLogoTwitter />
                         </p>
                     </div>
-                    <div className= " bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[-5%] right-[42%] max-lg:right-[47%] max-[300px]:right-[45%]">
-                        <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
+                    <div className= " bg-white icon duration-500 cursor-pointer w-8 h-8 rounded-full p-[2px] absolute bottom-[-5%] right-[42%] max-lg:right-[47%] max-[300px]:right-[45%]">
+                        <p className=" bg-[#0b0b13] hover:bg-blue-600 duration-300 w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
                         <BiLogoInstagram />
                         </p>
                     </div>
-                    <div className=" bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[-2%] right-[25%] max-lg:right-[30%]">
-                        <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
+                    <div className=" bg-white icon duration-500 cursor-pointer w-8 h-8 rounded-full p-[2px] absolute bottom-[-2%] right-[25%] max-lg:right-[30%]">
+                        <p className=" bg-[#0b0b13] hover:bg-blue-600 duration-300 w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
                         <BiLogoGithub />
                         </p>
                     </div>
-                    <div className=" bg-white w-8 h-8 rounded-full p-[2px] absolute bottom-[6%] right-[9%] max-lg:right-[14%] max-lg:bottom-[5%]">
-                        <p className=" bg-[#0b0b13] w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
+                    <div className=" bg-white icon duration-500 cursor-pointer w-8 h-8 rounded-full p-[2px] absolute bottom-[6%] right-[9%] max-lg:right-[14%] max-lg:bottom-[5%]">
+                        <p className=" bg-[#0b0b13] hover:bg-blue-600 duration-300 w-full h-full flex justify-center items-center text-lg text-white p-1 rounded-full">
                         <SiNetlify />
                         </p>
                     </div>
