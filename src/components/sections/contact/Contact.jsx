@@ -7,7 +7,7 @@ import { GiSmartphone } from "react-icons/gi";
 const Contact = () => {
   return (
     <div className="bg-[#F7F7FF] dark:bg-[#0E0E17] duration-200 flex flex-col gap-16 justify-center w-[100%]">
-      <div className="w-[90%] mx-auto mt-24 flex max-lg:flex-col max-lg:gap-12 gap-0 justify-between">
+      <div className="w-[90%] mx-auto mt-20 flex max-lg:flex-col max-lg:gap-12 gap-0 justify-between">
         {/* left info */}
         <div className="w-[30%] max-lg:w-[100%] flex flex-col gap-3">
           <h1 className=" text-black dark:text-white text-4xl font-medium">
