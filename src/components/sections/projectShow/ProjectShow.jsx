@@ -10,51 +10,80 @@ const ProjectShow = () => {
         <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-3xl tracking-wide font-medium text-center">
           Recent Project
         </h1>
-        <p className="w-[70%] mx-auto text-[#0B0B13] dark:text-[#9C9C9F] text-center tracking-widest text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem culpa nulla unde voluptatum. Iusto dolorum omnis unde debitis minima? Odio provident vel voluptatibus magni, sint minus repudiandae facilis et.</p>
+        <p className="w-[70%] mx-auto text-[#0B0B13] dark:text-[#9C9C9F] text-center tracking-widest text-sm">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem
+          culpa nulla unde voluptatum. Iusto dolorum omnis unde debitis minima?
+          Odio provident vel voluptatibus magni, sint minus repudiandae facilis
+          et.
+        </p>
       </div>
       <div className="w-[90%] flex max-lg:flex-wrap max-sm:flex-col max-lg:gap-14 justify-between mb-24 mx-auto">
         {/* project card  */}
-        <div className="w-[32%] max-lg:w-[45%] max-sm:w-[100%] card overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow">
+        <a
+          href="https://edu-pro-dashboard2.netlify.app"
+          className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] card overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow"
+        >
           <img src={pj2} className="w-[100%] card-img duration-500" />
           <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-lg tracking-wide font-medium text-center">
             Dashboard Web Design
           </h1>
           {/* <p className="text-[#0B0B13] dark:text-[#9C9C9F] text-center tracking-widest text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem culpa nulla unde voluptatum. Iusto dolorum omnis unde debitis minima? Odio provident vel voluptatibus magni, sint minus repudiandae facilis et.</p> */}
           <div className="flex my-3 gap-5 mx-auto">
-            <a href="https://edu-pro-dashboard2.netlify.app" className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded">
+            <a
+              href="https://edu-pro-dashboard2.netlify.app"
+              className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded"
+            >
               Demo
             </a>
-            <a href="https://github.com/khinezinthin/Edu_Pro_Dashboard" className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded">
+            <a
+              href="https://github.com/khinezinthin/Edu_Pro_Dashboard"
+              className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded"
+            >
               Git Hub
             </a>
           </div>
-        </div>
-        <div className="w-[32%] max-lg:w-[45%] max-sm:w-[100%] card overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow">
+        </a>
+        <a
+          href="https://eduvide.netlify.app"
+          className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] card overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow"
+        >
           <img src={pj1} className="w-[100%] card-img duration-500" />
           <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-lg tracking-wide font-medium text-center">
             Frontend Web Design
           </h1>
           {/* <p className="text-[#0B0B13] dark:text-[#9C9C9F] text-center tracking-widest text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem culpa nulla unde voluptatum. Iusto dolorum omnis unde debitis minima? Odio provident vel voluptatibus magni, sint minus repudiandae facilis et.</p> */}
           <div className="flex my-3 gap-5 mx-auto">
-            <a href="https://eduvide.netlify.app" className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded">
+            <a
+              href="https://eduvide.netlify.app"
+              className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded"
+            >
               Demo
             </a>
-            <a href="https://github.com/khinezinthin/Edu-Pro" className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded">
+            <a
+              href="https://github.com/khinezinthin/Edu-Pro"
+              className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded"
+            >
               Git Hub
             </a>
           </div>
-        </div>
-        <div className="w-[32%] max-lg:w-[45%] max-sm:w-[100%] max-lg:mx-auto card overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow">
+        </a>
+        <div className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] max-lg:mx-auto card overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow">
           <img src={pj2} className="w-[100%] card-img duration-500" />
           <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-lg tracking-wide font-medium text-center">
             EduPro Dashboard
           </h1>
           {/* <p className="text-[#0B0B13] dark:text-[#9C9C9F] text-center tracking-widest text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem culpa nulla unde voluptatum. Iusto dolorum omnis unde debitis minima? Odio provident vel voluptatibus magni, sint minus repudiandae facilis et.</p> */}
           <div className="flex my-3 gap-5 mx-auto">
-            <a href="" className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded">
+            <a
+              href=""
+              className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded"
+            >
               Demo
             </a>
-            <a href="" className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded">
+            <a
+              href=""
+              className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded"
+            >
               Git Hub
             </a>
           </div>
