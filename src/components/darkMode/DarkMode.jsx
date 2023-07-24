@@ -42,7 +42,7 @@ const DarkMode = () => {
     <div className=" fixed right-0 top-[45%]">
       <button
         onClick={handleThemeSwitch}
-        className={`bgTransparent w-16 h-12 rounded-l-full flex justify-center items-center`}>
+        className={`bgTransparent1 w-16 h-12 rounded-l-full flex justify-center items-center`}>
         {theme === "dark" ? (
           <FaSun className=" text-2xl text-white" />
         ) : (
