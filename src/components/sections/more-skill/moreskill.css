@@ -1,0 +1,17 @@
+.circular-progress {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .circular-progress circle {
+    fill: transparent;
+  }
+
+  .circular-progress text {
+    color: aqua;
+  }
+  
+  .circular-progress .stroke-current {
+    stroke-linecap: round;
+  }
+

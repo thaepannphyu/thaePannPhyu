@@ -3,7 +3,7 @@ import "./experience.css";
 
 const Experience = () => {
   return (
-    <div className=" bg-[#FFFFFF] dark:bg-[#000000] duration-200">
+    <div className=" bg-[#FFFFFF] dark:bg-[#000000] duration-200 pt-10">
       <div className=" w-[90%] mx-auto">
         <h2 className=" text-left text-3xl font-bold dark:text-white mb-8 ">
           Experience
