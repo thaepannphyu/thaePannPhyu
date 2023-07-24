@@ -20,11 +20,11 @@ const App = () => {
 
         <div className="w-full">
           <DarkMode/>
-          <section><About/></section>
-          <section><Experience /></section>
-          <section><SkillAndEducation /></section>
-          <section><ProjectShow/></section>
-          <section><Contact/></section>
+          <section id="1"><About/></section>
+          <section id="2"><Experience /></section>
+          <section id=""><SkillAndEducation /></section>
+          <section id="3"><ProjectShow/></section>
+          <section id="4"><Contact/></section>
           <Footer/>
         </div>     
       </div>
