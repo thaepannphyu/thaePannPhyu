@@ -1,5 +1,6 @@
 import React from "react";
 import "./experience.css";
+import Banner from "../../Banner/Banner";
 
 const Experience = () => {
   return (
@@ -7,10 +8,11 @@ const Experience = () => {
     <div className=" bg-[#FFFFFF] dark:bg-[#000000] duration-200 pt-20">
 
       <div className=" w-[90%] mx-auto">
-        <h2 className=" text-left text-3xl font-bold dark:text-white mb-8 ">
-          Experience
-        </h2>
-        <div className=" flex flex-col gap-5">
+        {/* <h2 className=" text-left text-3xl font-bold dark:text-white  ">
+         
+        </h2> */}
+        <Banner title="Experience"  />
+        <div className=" flex flex-col gap-5 mt-8">
           {/* edu pro  */}
           <div className=" bg-[#f7f7ff] dark:bg-[#0b0b13] rounded p-5 flex flex-col md:flex-row items-start gap-3">
             <div className=" w-full md:w-[30%] flex flex-col gap-1 items-start">

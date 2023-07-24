@@ -1,14 +1,16 @@
 import React from "react";
 import Skill from "./Skill";
 import Education from "./Education";
+import Banner from "../../Banner/Banner";
 
 const SkillAndEducation = () => {
   return (
     <div className=" bg-[#FFFFFF] dark:bg-[#000000] duration-200">
       <div className=" w-[90%] mx-auto  ">
-        <h2 className=" text-left text-3xl font-bold dark:text-white">
-          Education & Skills
-        </h2>
+        {/* <h2 className=" text-left text-3xl font-bold dark:text-white">
+          
+        </h2> */}
+        <Banner title="Education & Skills" />
         <div className=" flex flex-col lg:flex-row gap-12 lg:gap-[7%] mt-10">
           {/* education  */}
           <div className=" lg:w-[33%] md:w-full bg-[#f7f7ff] dark:bg-[#0b0b13] rounded p-3">
