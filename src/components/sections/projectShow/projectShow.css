@@ -1,7 +1,5 @@
 .card:hover{
-    .card-img{
-        transform: scale(1.1);
-    }
+        transform: translateY(-20px);
 }
 
 .go-up:hover{

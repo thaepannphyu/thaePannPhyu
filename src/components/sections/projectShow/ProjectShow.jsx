@@ -22,9 +22,9 @@ const ProjectShow = () => {
         {/* project card  */}
         <a
           href="https://edu-pro-dashboard2.netlify.app"
-          className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] card overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow"
+          className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] card duration-300 overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow-md"
         >
-          <img src={pj2} className="w-[100%] card-img duration-500" />
+          <img src={pj2} className="w-[100%]" />
           <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-lg tracking-wide font-medium text-center">
             Dashboard Web Design
           </h1>
@@ -45,9 +45,9 @@ const ProjectShow = () => {
         </a>
         <a
           href="https://eduvide.netlify.app"
-          className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] card overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow"
+          className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] card duration-300 overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow-md"
         >
-          <img src={pj1} className="w-[100%] card-img duration-500" />
+          <img src={pj1} className="w-[100%]" />
           <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-lg tracking-wide font-medium text-center">
             Frontend Web Design
           </h1>
@@ -68,9 +68,9 @@ const ProjectShow = () => {
         </a>
         <a
           href="https://contact-web1.netlify.app"
-          className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] max-lg:mx-auto card overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow"
+          className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] max-lg:mx-auto card duration-300 overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow-md"
         >
-          <img src={pj3} className="w-[100%] card-img duration-500" />
+          <img src={pj3} className="w-[100%]" />
           <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-lg tracking-wide font-medium text-center">
             Contact Web Design
           </h1>
