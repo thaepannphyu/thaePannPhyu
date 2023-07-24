@@ -10,7 +10,7 @@ import { SiNetlify } from "react-icons/si";
 const About = () => {
   return (
     <>
-      <div className=" flex flex-col justify-center pt-24 bg-[#f7f7ff] dark:bg-[#0e0e17] duration-200">
+      <div className=" flex flex-col justify-center items-center pt-24 bg-[#f7f7ff] dark:bg-[#0e0e17] duration-200">
         <div className=" w-[95%] max-lg:w-[90%] flex justify-center item-center max-lg:flex-col ">
           {/* left img  */}
           <div className="w-[40%] min-[1116px]:w-[35%] max-lg:w-full flex flex-col justify-center item-center gap-8 ">
@@ -54,7 +54,7 @@ const About = () => {
             </div>
 
             <div className=" text-center w-[310px] max-lg:w-full max-lg:mb-12 ">
-              <h1 className=" text-gray-800 dark:text-[#9e9ea0]">
+              <h1 className=" text-gray-800 dark:text-[#b9b9bb]">
                 Frontend Developer
               </h1>
               <h1 className=" text-2xl text-[#0b0b13] dark:text-white font-semibold tracking-wide">
@@ -71,11 +71,11 @@ const About = () => {
                 Biography
               </h1>
 
-              <p className=" text-gray-800 dark:text-[#9e9ea0] text-[15px] leading-6 mt-7 mb-5 max-lg:mt-8">
+              <p className=" text-gray-800 dark:text-[#b9b9bb] text-[15px] leading-6 mt-7 mb-5 max-lg:mt-8">
                 Hello, I'm Junior Front-end Web Developer . I'm from Yangon . I code and create web elements for my project . I design and code beautifully simple things and i like what i do . I have teamwork experience and team project from MMS IT Workshop.
               </p>
 
-              <p className=" text-gray-800 dark:text-[#9e9ea0] text-[15px] leading-6 mb-7 max-lg:mb-8">
+              <p className=" text-gray-800 dark:text-[#b9b9bb] text-[15px] leading-6 mb-7 max-lg:mb-8">
                 Hello, I'm Junior Front-end Web Developer . I'm from Yangon . I code and create web elements for my project . I design and code beautifully simple things and i like what i do . I have teamwork experience and team project from MMS IT Workshop.
               </p>
             </div>
@@ -86,7 +86,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Name:{" "}
                   </span>
-                  <span className="text-gray-800 dark:text-[#9e9ea0]">
+                  <span className="text-gray-800 dark:text-[#b9b9bb]">
                     Khine Zin Thin
                   </span>
                 </p>
@@ -94,7 +94,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Birthday:{" "}
                   </span>
-                  <span className="text-gray-800 dark:text-[#9e9ea0]">
+                  <span className="text-gray-800 dark:text-[#b9b9bb]">
                     19th Dec 2002
                   </span>
                 </p>
@@ -102,7 +102,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Age:{" "}
                   </span>
-                  <span className="text-gray-800 dark:text-[#9e9ea0]">
+                  <span className="text-gray-800 dark:text-[#b9b9bb]">
                     20 years
                   </span>
                 </p>
@@ -110,7 +110,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Address:{" "}
                   </span>
-                  <span className="text-gray-800 dark:text-[#9e9ea0]">
+                  <span className="text-gray-800 dark:text-[#b9b9bb]">
                     Yangon
                   </span>
                 </p>
@@ -121,7 +121,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Phone:{" "}
                   </span>
-                  <span className="text-gray-800 dark:text-[#9e9ea0] text-[15px]">
+                  <span className="text-gray-800 dark:text-[#b9b9bb] text-[15px]">
                     (+95) 09254490447
                   </span>
                 </p>
@@ -129,7 +129,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Email:{" "}
                   </span>
-                  <span className="text-gray-800 dark:text-[#9e9ea0] text-[15px]">
+                  <span className="text-gray-800 dark:text-[#b9b9bb] text-[15px]">
                     khinezinthinfb1@gmail.com
                   </span>
                 </p>
@@ -137,7 +137,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     skype:{" "}
                   </span>
-                  <span className="text-gray-800 dark:text-[#9e9ea0] text-[15px]">
+                  <span className="text-gray-800 dark:text-[#b9b9bb] text-[15px]">
                     khinezinthin
                   </span>
                 </p>
@@ -145,7 +145,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Freelance:{" "}
                   </span>
-                  <span className="text-gray-800 dark:text-[#9e9ea0] text-[15px]">
+                  <span className="text-gray-800 dark:text-[#b9b9bb] text-[15px]">
                     Available
                   </span>
                 </p>
