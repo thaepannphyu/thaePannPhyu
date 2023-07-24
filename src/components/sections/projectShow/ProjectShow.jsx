@@ -7,7 +7,7 @@ import "./projectShow.css";
 const ProjectShow = () => {
   return (
     <div className="w-[100%] flex flex-col gap-16 justify-center bg-[#FFFFFF] dark:bg-[#000000] duration-200">
-      <div className="w-[90%] mt-24 flex gap-5 flex-col justify-center mx-auto">
+      <div className="w-[90%] mt-5 flex gap-5 flex-col justify-center mx-auto">
         <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-3xl tracking-wide font-medium text-center">
           Recent Project
         </h1>

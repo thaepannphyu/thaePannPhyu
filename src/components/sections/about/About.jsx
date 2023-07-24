@@ -156,13 +156,7 @@ const About = () => {
       </div>
 
       {/* hr  */}
-      <div className="w-[90%] flex justify-center item-center">
-        <img
-          className=" hr-img"
-          src="	https://nairo.ibthemespro.com/img/border-dark.png"
-          alt=""
-        />
-      </div>
+      <div className=" w-[90%] mx-auto background bg-[url(https://nairo.ibthemespro.com/img/border-dark.png)] dark:invert"></div>
     </>
   );
 };
