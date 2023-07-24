@@ -9,6 +9,7 @@ import { useDisclosure } from '@mantine/hooks';
 import { MdOutlineKeyboardArrowUp } from "react-icons/md";
 import "../footer/footer.css"
 import { useEffect } from 'react'
+import "./sidebar.css"
 
 const Sidebar = () => {
   // sidebar active class 
@@ -50,32 +51,42 @@ const Sidebar = () => {
             <div className=' border-r dark:border-[#25252C] h-screen text-gray-600 dark:text-white text-3xl max-[400px]:text-2xl flex flex-col justify-center item-center'>
                 <div 
                   onClick={() => setActive("home")} 
-                  className={`${active == "home" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer`}>
+                  className={`${active == "home" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer relative nav`}>
                   <FaHome/>
+                  <div className={`show-name hidden ${active == "home" ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-35px] top-[28px] rounded`}>Home
+                  </div>
                 </div>
 
                 <div 
                   onClick={() => setActive("about")} 
-                  className={`${active == "about" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer`}>
+                  className={`${active == "about" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer relative nav`}>
                   <BsPerson/>
+                  <div className={`show-name hidden ${active == "about" ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-35px] top-[28px] rounded`}>About
+                  </div>
                 </div>
 
                 <div 
                   onClick={() => setActive("resume")} 
-                  className={`${active == "resume" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer`}>
+                  className={`${active == "resume" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer relative nav`}>
                   <AiOutlineFileText/>
+                  <div className={`show-name hidden ${active == "resume" ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-44px] top-[28px] rounded`}>resume
+                  </div>
                 </div>
 
                 <div 
                   onClick={() => setActive("project")} 
-                  className={`${active == "project" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer`}>
+                  className={`${active == "project" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer relative nav`}>
                   <MdOutlineWorkOutline/>
+                  <div className={`show-name hidden ${active == "project" ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-44px] top-[28px] rounded`}>project
+                  </div>
                 </div>
 
                 <div 
                   onClick={() => setActive("contact")} 
-                  className={`${active == "contact" ? "primary-text" : ""} transition-all duration-100 p-6 cursor-pointer`}>
+                  className={`${active == "contact" ? "primary-text" : ""} transition-all duration-100 p-6 cursor-pointer relative nav`}>
                   <FiPhoneOutgoing/>
+                  <div className={`show-name hidden ${active == "contact" ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-50px] top-[25px] rounded`}>contact
+                  </div>
                 </div>
             </div>
         </div>
