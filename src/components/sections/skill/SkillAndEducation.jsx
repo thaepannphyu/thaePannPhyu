@@ -20,7 +20,7 @@ const SkillAndEducation = () => {
           </div>
         </div>
         {/* hr  */}
-        <div className=" w-[90%] mx-auto background bg-[url(https://nairo.ibthemespro.com/img/border-dark.png)] dark:invert"></div>
+        <div className=" w-[90%] pb-0 mt-16 mx-auto background bg-[url(https://nairo.ibthemespro.com/img/border-dark.png)] dark:invert"></div>
       </div>
     </div>
   );
