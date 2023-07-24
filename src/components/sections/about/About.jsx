@@ -10,7 +10,7 @@ import { SiNetlify } from "react-icons/si";
 const About = () => {
   return (
     <>
-      <div className=" flex justify-center py-24 bg-[#f7f7ff] dark:bg-[#0e0e17] duration-200">
+      <div className=" flex flex-col justify-center pt-24 bg-[#f7f7ff] dark:bg-[#0e0e17] duration-200">
         <div className=" w-[95%] max-lg:w-[90%] flex justify-center item-center max-lg:flex-col ">
           {/* left img  */}
           <div className="w-[40%] min-[1116px]:w-[35%] max-lg:w-full flex flex-col justify-center item-center gap-8 ">
@@ -153,10 +153,11 @@ const About = () => {
             </div>
           </div>
         </div>
+        {/* hr  */}
+      <div className=" w-[90%] mx-auto background bg-[url(https://nairo.ibthemespro.com/img/border-dark.png)] dark:invert"></div>
       </div>
 
-      {/* hr  */}
-      <div className=" w-[90%] mx-auto background bg-[url(https://nairo.ibthemespro.com/img/border-dark.png)] dark:invert"></div>
+      
     </>
   );
 };
