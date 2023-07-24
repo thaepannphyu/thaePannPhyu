@@ -13,7 +13,7 @@ const About = () => {
       <div className=" flex justify-center py-24 bg-[#f7f7ff] dark:bg-[#0e0e17] duration-200">
         <div className=" w-[95%] max-lg:w-[90%] flex justify-center item-center max-lg:flex-col ">
           {/* left img  */}
-          <div className="w-[40%] max-lg:w-full flex flex-col justify-center item-center gap-8">
+          <div className="w-[40%] min-[1116px]:w-[35%] max-lg:w-full flex flex-col justify-center item-center gap-8 ">
             {/* img circle  */}
             <div className="max-lg:flex max-lg:justify-center">
               <div className="relative w-[280px] h-[280px] max-[330px]:w-[250px] max-[330px]:h-[250px] max-[300px]:w-[220px] max-[300px]:h-[220px] max-[283px]:w-[190px] max-[283px]:h-[190px]">
@@ -65,24 +65,18 @@ const About = () => {
           </div>
 
           {/*right biography */}
-          <div className=" w-[55%] max-lg:w-full text-left">
+          <div className=" w-[55%] min-[1116px]:w-[60%] max-lg:w-full text-left ">
             <div>
               <h1 className="text-3xl text-black dark:text-white font-bold">
                 Biography
               </h1>
 
               <p className=" text-gray-800 dark:text-[#9e9ea0] text-[15px] leading-6 mt-7 mb-5 max-lg:mt-8">
-                I'm a Freelancer Front-end Developer with over 3 years of
-                experience. I'm from San Francisco. I code and create web
-                elements for amazing people around the world. I like work with
-                new people.
+                Hello, I'm Junior Front-end Web Developer . I'm from Yangon . I code and create web elements for my project . I design and code beautifully simple things and i like what i do . I have teamwork experience and team project from MMS IT Workshop.
               </p>
 
               <p className=" text-gray-800 dark:text-[#9e9ea0] text-[15px] leading-6 mb-7 max-lg:mb-8">
-                I'm a Freelancer Front-end Developer with over 3 years of
-                experience. I'm from San Francisco. I code and create web
-                elements for amazing people around the world. I like work with
-                new people.
+                Hello, I'm Junior Front-end Web Developer . I'm from Yangon . I code and create web elements for my project . I design and code beautifully simple things and i like what i do . I have teamwork experience and team project from MMS IT Workshop.
               </p>
             </div>
 
