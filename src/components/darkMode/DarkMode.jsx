@@ -37,7 +37,7 @@ const DarkMode = () => {
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
-  console.log(theme);
+  // console.log(theme);
   return (
     <div className=" fixed right-0 top-[45%] z-50">
       <button
