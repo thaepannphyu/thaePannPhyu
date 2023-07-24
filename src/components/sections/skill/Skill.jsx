@@ -1,9 +1,30 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 
 const Skill = () => {
+  const initialCountValue = parseInt(localStorage.getItem("countValue")) || 0;
   const [count, setCount] = useState(false);
+  const [triggerActivated, setTriggerActivated] = useState(false);
+
+  // useEffect(() => {
+  //   if (triggerActivated) {
+  //     localStorage.setItem("countValue", initialCountValue.toString());
+  //   }
+  // }, [initialCountValue, triggerActivated]);
+
+  const handleScrollEnter = () => {
+    if (!triggerActivated) {
+      setTriggerActivated(true);
+      // setCount(true);
+    }
+  };
+
+  const handleScrollExit = () => {
+    setTriggerActivated(false);
+    // setCount(false);
+  };
+
   return (
     <div>
       {/* <h2 className=" uppercase tracking-wider text-left py-3 font-light">
@@ -14,17 +35,21 @@ const Skill = () => {
         <div className=" flex gap-5 justify-evenly items-center">
           <div className=" w-fit">
             <ScrollTrigger
-              onEnter={() => setCount(true)}
-              onExit={() => setCount(false)}>
-              <h2 className=" flex items-center text-3xl font-medium">
-                {count && <CountUp start={0} end={92} duration={2} delay={0} />}{" "}
+              onEnter={{ handleScrollEnter }}
+              onExit={handleScrollExit}
+              // triggerOnLoad={false}
+              >
+              <h2 className=" flex items-center text-3xl font-medium dark:text-white">
+                {count && (
+                  <CountUp start={0} end={92} duration={2} delay={0} />
+                )}{" "}
                 %
               </h2>
             </ScrollTrigger>
           </div>
 
           <div className=" w-[85%]">
-            <p className=" uppercase text-[14px] tracking-wider text-left pb-2">
+            <p className=" uppercase text-[14px] tracking-wider text-left pb-2 dark:text-white">
               html5
             </p>
             <div className=" w-full h-[10px] bg-slate-300">
@@ -38,14 +63,16 @@ const Skill = () => {
             <ScrollTrigger
               onEnter={() => setCount(true)}
               onExit={() => setCount(false)}>
-              <h2 className=" flex items-center text-3xl font-medium">
-                {count && <CountUp start={0} end={62} duration={2} delay={0} />}{" "}
+              <h2 className=" flex items-center text-3xl font-medium dark:text-white">
+                {count && (
+                  <CountUp  start={0} end={62} duration={2} delay={0} />
+                )}{" "}
                 %
               </h2>
             </ScrollTrigger>
           </div>
           <div className=" w-[85%]">
-            <p className=" uppercase text-[14px] tracking-wider text-left pb-2">
+            <p className=" uppercase text-[14px] tracking-wider dark:text-white text-left pb-2">
               javascript
             </p>
             <div className=" w-full h-[10px] bg-slate-300">
@@ -59,14 +86,16 @@ const Skill = () => {
             <ScrollTrigger
               onEnter={() => setCount(true)}
               onExit={() => setCount(false)}>
-              <h2 className=" flex items-center text-3xl font-medium">
-                {count && <CountUp start={0} end={80} duration={2} delay={0} />}{" "}
+              <h2 className=" flex items-center text-3xl font-medium dark:text-white">
+                {count && (
+                  <CountUp start={0} end={80} duration={2} delay={0} />
+                )}{" "}
                 %
               </h2>
             </ScrollTrigger>
           </div>
           <div className=" w-[85%]">
-            <p className=" uppercase text-[14px] tracking-wider text-left pb-2">
+            <p className=" uppercase text-[14px] tracking-wider text-left pb-2 dark:text-white">
               react js
             </p>
             <div className=" w-full h-[10px] bg-slate-300">
@@ -80,14 +109,16 @@ const Skill = () => {
             <ScrollTrigger
               onEnter={() => setCount(true)}
               onExit={() => setCount(false)}>
-              <h2 className=" flex items-center text-3xl font-medium ">
-                {count && <CountUp start={0} end={90} duration={2} delay={0} />}{" "}
+              <h2 className=" flex items-center text-3xl font-medium dark:text-white ">
+                {count && (
+                  <CountUp start={0} end={90} duration={2} delay={0} />
+                )}{" "}
                 %
               </h2>
             </ScrollTrigger>
           </div>
           <div className=" w-[85%]">
-            <p className=" uppercase text-[14px] tracking-wider text-left pb-2">
+            <p className=" uppercase text-[14px] tracking-wider text-left pb-2 dark:text-white">
               tailwind css
             </p>
             <div className=" w-full h-[10px] bg-slate-300">
@@ -101,14 +132,16 @@ const Skill = () => {
             <ScrollTrigger
               onEnter={() => setCount(true)}
               onExit={() => setCount(false)}>
-              <h2 className=" flex items-center text-3xl font-medium">
-                {count && <CountUp start={0} end={70} duration={2} delay={0} />}{" "}
+              <h2 className=" flex items-center text-3xl font-medium dark:text-white">
+                {count && (
+                  <CountUp start={0} end={70} duration={2} delay={0} />
+                )}{" "}
                 %
               </h2>
             </ScrollTrigger>
           </div>
           <div className=" w-[85%]">
-            <p className=" uppercase text-[14px] tracking-wider text-left pb-2">
+            <p className=" uppercase text-[14px] tracking-wider text-left pb-2 dark:text-white">
               github
             </p>
             <div className=" w-full h-[10px] bg-slate-300">
