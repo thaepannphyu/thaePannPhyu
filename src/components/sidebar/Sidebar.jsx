@@ -10,10 +10,16 @@ import { MdOutlineKeyboardArrowUp } from "react-icons/md";
 import "../footer/footer.css"
 import { useEffect } from 'react'
 import "./sidebar.css"
+import { useDispatch, useSelector } from 'react-redux'
+import { setActive } from '../../../redux/sidebarSlice'
+import { NavHashLink as Link } from 'react-router-hash-link'
 
 const Sidebar = () => {
   // sidebar active class 
-  const [active,setActive] = useState("home");
+  const dispatch = useDispatch();
+  const active = useSelector(state => state.sidebarSlice.value)
+  // console.log(active);
+
   // back to top show 
   const [showBackToTop,setShowBackToTop] = useState(false);
 
@@ -49,45 +55,55 @@ const Sidebar = () => {
             </div>
 
             <div className=' border-r dark:border-[#25252C] h-screen text-gray-600 dark:text-white text-3xl max-[400px]:text-2xl flex flex-col justify-center item-center'>
-                <div 
-                  onClick={() => setActive("home")} 
-                  className={`${active == "home" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer relative nav`}>
-                  <FaHome/>
-                  <div className={`show-name hidden ${active == "home" ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-35px] top-[28px] rounded`}>Home
+                <Link to={"#0"}>
+                  <div 
+                    onClick={() => dispatch(setActive(0))} 
+                    className={`${active == 0 ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer relative nav`}>
+                    <FaHome/>
+                    <div className={`show-name hidden ${active == 0 ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-35px] top-[28px] rounded`}>Home
+                    </div>
                   </div>
-                </div>
+                </Link>
 
-                <div 
-                  onClick={() => setActive("about")} 
-                  className={`${active == "about" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer relative nav`}>
-                  <BsPerson/>
-                  <div className={`show-name hidden ${active == "about" ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-35px] top-[28px] rounded`}>About
+                <Link to={"#1"}>
+                  <div 
+                    onClick={() => dispatch(setActive(1))} 
+                    className={`${active == 1 ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer relative nav`}>
+                    <BsPerson/>
+                    <div className={`show-name hidden ${active == 1 ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-35px] top-[28px] rounded`}>About
+                    </div>
                   </div>
-                </div>
+                </Link>
 
-                <div 
-                  onClick={() => setActive("resume")} 
-                  className={`${active == "resume" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer relative nav`}>
-                  <AiOutlineFileText/>
-                  <div className={`show-name hidden ${active == "resume" ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-44px] top-[28px] rounded`}>resume
+                <Link to={"#2"}>
+                  <div 
+                    onClick={() => dispatch(setActive(2))} 
+                    className={`${active == 2 ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer relative nav`}>
+                    <AiOutlineFileText/>
+                    <div className={`show-name hidden ${active == 2 ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-44px] top-[28px] rounded`}>resume
+                    </div>
                   </div>
-                </div>
+                </Link>
 
-                <div 
-                  onClick={() => setActive("project")} 
-                  className={`${active == "project" ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer relative nav`}>
-                  <MdOutlineWorkOutline/>
-                  <div className={`show-name hidden ${active == "project" ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-44px] top-[28px] rounded`}>project
+                <Link to={"#3"}>
+                  <div 
+                    onClick={() => dispatch(setActive(3))} 
+                    className={`${active == 3 ? "primary-text" : ""} transition-all duration-100 border-b dark:border-[#25252C] p-6 cursor-pointer relative nav`}>
+                    <MdOutlineWorkOutline/>
+                    <div className={`show-name hidden ${active == 3 ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-44px] top-[28px] rounded`}>project
+                    </div>
                   </div>
-                </div>
+                </Link>
 
-                <div 
-                  onClick={() => setActive("contact")} 
-                  className={`${active == "contact" ? "primary-text" : ""} transition-all duration-100 p-6 cursor-pointer relative nav`}>
-                  <FiPhoneOutgoing/>
-                  <div className={`show-name hidden ${active == "contact" ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-50px] top-[25px] rounded`}>contact
+                <Link to={"#4"}>
+                  <div 
+                    onClick={() => dispatch(setActive(4))} 
+                    className={`${active == 4 ? "primary-text" : ""} transition-all duration-100 p-6 cursor-pointer relative nav`}>
+                    <FiPhoneOutgoing/>
+                    <div className={`show-name hidden ${active == 4 ? "text-blue-400" : "text-white "} bg-[#494949] dark:bg-[#292930] text-sm px-2 py-1 absolute right-[-50px] top-[25px] rounded`}>contact
+                    </div>
                   </div>
-                </div>
+                </Link>
             </div>
         </div>
 
