@@ -10,7 +10,7 @@ import { SiNetlify } from "react-icons/si";
 const About = () => {
   return (
     <>
-      <div className=" flex justify-center py-24 bg-[#f7f7ff]">
+      <div className=" flex justify-center py-24 bg-[#f7f7ff] dark:bg-[#0e0e17] duration-200">
         <div className=" w-[95%] max-lg:w-[90%] flex justify-center item-center max-lg:flex-col ">
           {/* left img  */}
           <div className="w-[40%] max-lg:w-full flex flex-col justify-center item-center gap-8">
@@ -59,7 +59,7 @@ const About = () => {
             </div>
 
             <div className=" text-center w-[310px] max-lg:w-full max-lg:mb-12 ">
-              <h1 className=" text-gray-800 dark:text-[#727277]">
+              <h1 className=" text-gray-800 dark:text-[#9e9ea0]">
                 Frontend Developer
               </h1>
               <h1 className=" text-2xl text-[#0b0b13] dark:text-white font-semibold tracking-wide">
@@ -75,14 +75,14 @@ const About = () => {
                 Biography
               </h1>
 
-              <p className=" text-gray-500 dark:text-[#727277] text-[15px] leading-6 mt-7 mb-5 max-lg:mt-8">
+              <p className=" text-gray-800 dark:text-[#9e9ea0] text-[15px] leading-6 mt-7 mb-5 max-lg:mt-8">
                 I'm a Freelancer Front-end Developer with over 3 years of
                 experience. I'm from San Francisco. I code and create web
                 elements for amazing people around the world. I like work with
                 new people.
               </p>
 
-              <p className=" text-gray-500 dark:text-[#727277] text-[15px] leading-6 mb-7 max-lg:mb-8">
+              <p className=" text-gray-800 dark:text-[#9e9ea0] text-[15px] leading-6 mb-7 max-lg:mb-8">
                 I'm a Freelancer Front-end Developer with over 3 years of
                 experience. I'm from San Francisco. I code and create web
                 elements for amazing people around the world. I like work with
@@ -96,7 +96,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Name:{" "}
                   </span>
-                  <span className="text-gray-500 dark:text-[#727277]">
+                  <span className="text-gray-800 dark:text-[#9e9ea0]">
                     Khine Zin Thin
                   </span>
                 </p>
@@ -104,7 +104,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Birthday:{" "}
                   </span>
-                  <span className="text-gray-500 dark:text-[#727277]">
+                  <span className="text-gray-800 dark:text-[#9e9ea0]">
                     19th Dec 2002
                   </span>
                 </p>
@@ -112,7 +112,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Age:{" "}
                   </span>
-                  <span className="text-gray-500 dark:text-[#727277]">
+                  <span className="text-gray-800 dark:text-[#9e9ea0]">
                     20 years
                   </span>
                 </p>
@@ -120,7 +120,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Address:{" "}
                   </span>
-                  <span className="text-gray-500 dark:text-[#727277]">
+                  <span className="text-gray-800 dark:text-[#9e9ea0]">
                     Yangon
                   </span>
                 </p>
@@ -131,7 +131,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Phone:{" "}
                   </span>
-                  <span className="text-gray-500 dark:text-[#727277] text-[15px]">
+                  <span className="text-gray-800 dark:text-[#9e9ea0] text-[15px]">
                     (+95) 09254490447
                   </span>
                 </p>
@@ -139,7 +139,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Email:{" "}
                   </span>
-                  <span className="text-gray-500 dark:text-[#727277] text-[15px]">
+                  <span className="text-gray-800 dark:text-[#9e9ea0] text-[15px]">
                     khinezinthinfb1@gmail.com
                   </span>
                 </p>
@@ -147,7 +147,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     skype:{" "}
                   </span>
-                  <span className="text-gray-500 dark:text-[#727277] text-[15px]">
+                  <span className="text-gray-800 dark:text-[#9e9ea0] text-[15px]">
                     khinezinthin
                   </span>
                 </p>
@@ -155,7 +155,7 @@ const About = () => {
                   <span className="font-semibold text-gray-700 dark:text-white">
                     Freelance:{" "}
                   </span>
-                  <span className="text-gray-500 dark:text-[#727277] text-[15px]">
+                  <span className="text-gray-800 dark:text-[#9e9ea0] text-[15px]">
                     Available
                   </span>
                 </p>
