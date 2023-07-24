@@ -6,6 +6,8 @@ import Sidebar from './components/sidebar/Sidebar';
 import Contact from "./components/sections/contact/Contact";
 import Footer from './components/footer/Footer';
 import About from "./components/sections/about/About";
+import ProjectShow from "./components/sections/projectShow/ProjectShow";
+import DarkMode from "./components/darkMode/DarkMode";
 
 
 const App = () => {
@@ -17,9 +19,11 @@ const App = () => {
         </div>   
 
         <div className="w-full">
+          <DarkMode/>
           <section><About/></section>
           <section><Experience /></section>
           <section><SkillAndEducation /></section>
+          <section><ProjectShow/></section>
           <section><Contact/></section>
           <Footer/>
         </div>     
