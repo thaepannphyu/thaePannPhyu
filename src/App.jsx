@@ -8,7 +8,12 @@ import Footer from "./components/footer/Footer";
 import About from "./components/sections/about/About";
 import ProjectShow from "./components/sections/projectShow/ProjectShow";
 import DarkMode from "./components/darkMode/DarkMode";
+
 import MoreSkill from "./components/sections/more-skill/MoreSkill";
+
+import Landing from "./components/sections/landing/Landing";
+import Testimonial from "./components/sections/Testimonial/Testimonial";
+
 
 const App = () => {
   return (
@@ -21,10 +26,17 @@ const App = () => {
         <div className="w-full">
           <DarkMode />
 
+
+         
+          
+
+          <section id="0" className=" overflow-hidden">
+            <Landing />
+          </section>
           <section id="1">
             <About />
           </section>
-          <section>
+    <section>
             <MoreSkill />
           </section>
           <section id="2">
@@ -33,10 +45,13 @@ const App = () => {
           <section id="">
             <SkillAndEducation />
           </section>
-          <section id="3">
-            <ProjectShow />
+          <section id="3" className=" overflow-hidden">
+            <Testimonial />
           </section>
           <section id="4">
+            <ProjectShow />
+          </section>
+          <section id="5">
             <Contact />
           </section>
           <Footer />

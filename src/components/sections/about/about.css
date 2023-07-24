@@ -6,6 +6,10 @@
     padding-top: 80px;
 }
 
+.icon:hover{
+    transform: scale(1.12);
+}
+
 /* .icon{
     width: 100%;
     height: 100%;
