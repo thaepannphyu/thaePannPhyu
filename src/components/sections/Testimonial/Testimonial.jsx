@@ -11,6 +11,7 @@ import Banner from "../../Banner/Banner";
 // import "@splidejs/react-splide/css";
 import kzt from "../../../assets/kzt/5.png"
 import pwl from "../../../assets/pwl/1.png"
+import kwyw from "../../../assets/kwyw/kwyw-removebg.png"
 
 const Testimonial = () => {
   const data = [
@@ -24,10 +25,10 @@ const Testimonial = () => {
     },
     {
       id: 2,
-      image: img1,
+      image: kwyw,
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, corporis nesciunt quidem veritatis tempore quae.",
-      name: "Khine Wutyi win",
+      name: "Khaing Wutyi win",
       work: "C# programmer",
     },
     {

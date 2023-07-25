@@ -8,7 +8,7 @@ AOS.init();
 
 const SkillAndEducation = () => {
   return (
-    <div className=" bg-[#FFFFFF] dark:bg-[#000000] duration-200">
+    <div >
       <div className=" w-[90%] mx-auto  ">
         {/* <h2 className=" text-left text-3xl font-bold dark:text-white">
           
