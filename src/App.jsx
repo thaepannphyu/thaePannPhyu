@@ -14,7 +14,6 @@ import MoreSkill from "./components/sections/more-skill/MoreSkill";
 import Landing from "./components/sections/landing/Landing";
 import Testimonial from "./components/sections/Testimonial/Testimonial";
 
-
 const App = () => {
   return (
     <>
@@ -30,26 +29,30 @@ const App = () => {
             <Landing />
           </section>
 
+          <div className=" bg-[#FFFFFF] dark:bg-[#000000] duration-200">
           <section id="1">
             <About />
           </section>
+
           <section>
             <MoreSkill />
           </section>
           <section className=" overflow-hidden">
             <Testimonial />
           </section>
-
-          <section id="2">
-            <Experience />
-          </section>
-          <section>
-            <SkillAndEducation />
-          </section>
-
+          </div>
+          <div className=" bg-[#FFFFFF] dark:bg-[#000000] duration-200">
+            <section id="2">
+              <Experience />
+            </section>
+            <section>
+              <SkillAndEducation />
+            </section>
           <section id="3">
             <ProjectShow />
           </section>
+          </div>
+
 
           <section id="4">
             <Contact />
