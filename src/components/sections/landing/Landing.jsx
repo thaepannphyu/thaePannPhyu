@@ -49,7 +49,7 @@ const Landing = () => {
     }, 3000);
     const interval2 = setInterval(() => {
       textOut(animateTextList);
-      console.log("out");
+      // console.log("out");
     }, 3000);
 
     return () => {

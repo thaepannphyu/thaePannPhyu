@@ -31,6 +31,11 @@ const MoreSkill = () => {
           </div>
         </div>
       </div>
+
+      {/* hr  */}
+      <div className=" w-[90%] pb-0 mt-14 mx-auto background bg-[url(https://nairo.ibthemespro.com/img/border-dark.png)] dark:invert">
+      </div>
+
     </div>
   );
 };
