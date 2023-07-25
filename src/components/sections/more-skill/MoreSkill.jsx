@@ -2,6 +2,9 @@ import React from "react";
 import "./test.css";
 import Test from "./Test";
 import Banner from "../../Banner/Banner";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const MoreSkill = () => {
   return (
@@ -15,17 +18,32 @@ const MoreSkill = () => {
           {/* Communication  */}
           <div className=" grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 main gap-5">
             {/* <h2 className=" border-4 border-yellow-800 rounded-full w-12 h-12 flex justify-center items-center"><span className=" border border-red-400 rounded-full w-10 h-10 flex justify-center items-center">90%</span></h2> */}
-            <p className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
+            <p
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
               <Test progress={40} />
               <span className="">Communication</span>
             </p>
-            <p className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
+            <p
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="50"
+            className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
               <Test progress={60} /> <span className="">Teamwork</span>{" "}
             </p>
-            <p className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
+            <p
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
               <Test progress={60} /> <span className=" "> Problem-solving</span>
             </p>
-            <p className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
+            <p
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="150"
+            className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
               <Test progress={60} /> <span className=" ">Fast Learning</span>{" "}
             </p>
           </div>

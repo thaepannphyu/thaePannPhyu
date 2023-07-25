@@ -41,7 +41,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="dark:bg-[#0E0E17] bg-[#F7F7FF] w-full pt-5 pb-20">
+    <div className="bg-[#F7F7FF] dark:bg-[#0E0E17] duration-200 w-full pt-5 pb-20">
       <div className=" w-[90%]  mx-auto flex flex-col items-center justify-center gap-16 ">
         <div className="w-full relative flex flex-col items-center justify-center gap-20">
           <div className=" w-full relative ">
