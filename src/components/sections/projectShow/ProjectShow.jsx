@@ -3,6 +3,8 @@ import pj1 from "../../../assets/projectPhoto/pj1.png";
 import pj2 from "../../../assets/projectPhoto/pj2.png";
 import pj3 from "../../../assets/projectPhoto/pj3.png";
 import "./projectShow.css";
+import Banner from "../../Banner/Banner";
+
 
 const ProjectShow = () => {
   return (
@@ -10,8 +12,8 @@ const ProjectShow = () => {
 
       <div className="w-[90%] mt-16 max-sm:mt-20 flex gap-5 flex-col justify-center mx-auto">
 
-        <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-3xl tracking-wide font-medium text-center">
-          Recent Project
+        <h1 className=" text-center">
+        <Banner title="Recent Project" />
         </h1>
         <p className="w-[70%] mx-auto text-[#0B0B13] dark:text-[#9C9C9F] text-center tracking-widest text-sm">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem

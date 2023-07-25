@@ -26,34 +26,35 @@ const App = () => {
         <div className="w-full">
           <DarkMode />
 
-
-         
-          
-
           <section id="0" className=" overflow-hidden">
             <Landing />
           </section>
+
           <section id="1">
             <About />
           </section>
-    <section>
+          <section>
             <MoreSkill />
           </section>
+          <section className=" overflow-hidden">
+            <Testimonial />
+          </section>
+
           <section id="2">
             <Experience />
           </section>
-          <section id="">
+          <section>
             <SkillAndEducation />
           </section>
-          <section id="3" className=" overflow-hidden">
-            <Testimonial />
-          </section>
-          <section id="4">
+
+          <section id="3">
             <ProjectShow />
           </section>
-          <section id="5">
+
+          <section id="4">
             <Contact />
           </section>
+
           <Footer />
         </div>
       </div>
