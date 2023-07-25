@@ -22,7 +22,7 @@ const MoreSkill = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
             className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
-              <Test progress={40} />
+              <Test progress={80} />
               <span className="">Communication</span>
             </p>
             <p
@@ -30,21 +30,21 @@ const MoreSkill = () => {
             data-aos-duration="1000"
             data-aos-delay="50"
             className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
-              <Test progress={60} /> <span className="">Teamwork</span>{" "}
+              <Test progress={85} /> <span className="">Teamwork</span>{" "}
             </p>
             <p
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="100"
             className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
-              <Test progress={60} /> <span className=" "> Problem-solving</span>
+              <Test progress={73} /> <span className=" "> Problem-solving</span>
             </p>
             <p
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="150"
             className=" flex flex-col justify-center items-center gap-3 font-semibold text-gray-500 dark:text-[#ffffffcc]">
-              <Test progress={60} /> <span className=" ">Fast Learning</span>{" "}
+              <Test progress={100} /> <span className=" ">Fast Learning</span>{" "}
             </p>
           </div>
         </div>
