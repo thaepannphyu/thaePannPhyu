@@ -52,7 +52,7 @@ const Testimonial = () => {
           <div className=" w-[90%] lg:w-full md:w-full flex main ">
             <Carousel
               withIndicators
-              className=" mx-auto card"
+              className=" mx-auto items"
               slideGap="lg"
               loop
               align="start"
