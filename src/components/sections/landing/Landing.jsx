@@ -64,7 +64,7 @@ const Landing = () => {
 
   return (
     <>
-      <div className=" dark:bg-black bg-[#F7F7FF] duration-200">
+      <div className=" dark:bg-black bg-[#FFFFFF] duration-200">
         <div className=" w-[90%]  mx-auto bg-transparent -z-20 flex justify-between">
           <div className="flex max-[400px]:flex-col max-[400px]:gap-0 justify-between gap-8 pt-5">
             <p className=" dark:text-white pt-3 cursor-copy select-none hover:text-[#525fe1] active:text-[#303aad]">
@@ -77,7 +77,7 @@ const Landing = () => {
         </div>
       </div>
       <div
-        className={`h-screen select-none w-full overflow  flex justify-center flex-col items-center dark:bg-black bg-[#F7F7FF] duration-200`}
+        className={`h-screen select-none w-full overflow  flex justify-center flex-col items-center dark:bg-black bg-[#FFFFFF] duration-200`}
       >
         <div
           className={`w-[90%] lg:landing-Bg-After relative  flex  mx-auto justify-between items-center`}
@@ -135,12 +135,7 @@ const Landing = () => {
                 UI, specialize in front-end language HTML, CSS,JS, SASS.
               </div>
               {/* btn */}
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="150"
-                data-aos-once="true"
-              >
+              <div>
                 {/* <button
                   className={`px-6 py-3 rounded hover:-translate-y-2
             

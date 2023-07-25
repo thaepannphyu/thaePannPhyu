@@ -11,7 +11,11 @@ AOS.init();
 const ProjectShow = () => {
   return (
     <div className="w-[100%] flex flex-col gap-16 justify-center bg-[#FFFFFF] dark:bg-[#000000] duration-200">
-      <div className="w-[90%] mt-16 max-sm:mt-20 flex gap-5 flex-col justify-center mx-auto">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        className="w-[90%] mt-16 max-sm:mt-20 flex gap-5 flex-col justify-center mx-auto"
+      >
         <h1 className=" text-center">
           <Banner title="Recent Project" />
         </h1>
@@ -30,7 +34,7 @@ const ProjectShow = () => {
         {/* project card  */}
         <a
           href="https://edu-pro-dashboard2.netlify.app"
-          className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] card duration-300 overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow-md"
+          className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] card dark:card-shadow duration-300 overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow-md"
         >
           <img src={pj2} className="w-[100%]" />
           <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-lg tracking-wide font-medium text-center">
