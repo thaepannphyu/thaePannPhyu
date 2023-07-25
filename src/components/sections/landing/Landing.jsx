@@ -6,9 +6,12 @@ import { BiLogoTwitter } from "react-icons/bi";
 import { BiLogoInstagram } from "react-icons/bi";
 // console.log(animateTextList);
 import "../contact/contact.css";
+
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
+
 
 const Landing = () => {
   const animateRef = useRef();
@@ -64,7 +67,12 @@ const Landing = () => {
 
   return (
     <>
-      <div className=" dark:bg-black bg-[#FFFFFF] duration-200">
+
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1200"
+        className=" dark:bg-black bg-[#F7F7FF] duration-200 hidden lg:block md:block">
+
         <div className=" w-[90%]  mx-auto bg-transparent -z-20 flex justify-between">
           <div className="flex max-[400px]:flex-col max-[400px]:gap-0 justify-between gap-8 pt-5">
             <p className=" dark:text-white pt-3 cursor-copy select-none hover:text-[#525fe1] active:text-[#303aad]">
@@ -77,28 +85,26 @@ const Landing = () => {
         </div>
       </div>
       <div
-        className={`h-screen select-none w-full overflow  flex justify-center flex-col items-center dark:bg-black bg-[#FFFFFF] duration-200`}
-      >
+
+        className={`h-screen  select-none w-full overflow  flex justify-center flex-col items-center dark:bg-black bg-[#F7F7FF] duration-200`}>
         <div
-          className={`w-[90%] lg:landing-Bg-After relative  flex  mx-auto justify-between items-center`}
-        >
-          <div className={`w-[60%] max-lg:w-full`}>
+          className={`w-[90%] py-5 lg:landing-Bg-After relative  flex  mx-auto justify-between items-center`}>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className={`w-full lg:w-[40%]  md:w-[50%] lg:h-[400px] `}>
             {/* left side body */}
-            <div className="flex flex-col gap-y-8">
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                className={`text-[#0B0B13]  dark:text-[white] text-xl`}
-              >
+            <div className="flex sm:lbg flex-col gap-y-4 md:gap-y-5 lg:gap-y-8">
+              <div className={`text-[#0B0B13]  dark:text-white`}>
+
                 Hello ~ My name is
               </div>
               <div
                 data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="50"
-                className={`font-bold tracking-wider lg:text-6xl md:text-4xl text-3xl dark:text-white text-[#0B0B13]`}
-              >
+                data-aos-duration="1200"
+                className={`font-bold tracking-wider lg:text-6xl md:text-4xl text-3xl dark:text-white text-[#0B0B13]`}>
                 Sakura Jung
+
               </div>
               {/* left text design body */}
               <div className=" ">
@@ -110,15 +116,19 @@ const Landing = () => {
                     data-aos-duration="1000"
                     data-aos-delay="100"
                     ref={animateRef}
-                    className=" flex flex-col justify-center "
-                  >
-                    <span className={`text-3xl py-2 span`}>
+
+                    className=" flex flex-col justify-center ">
+                    <span
+                      className={`lg:text-3xl md:text-xl text-lg py-2 span`}>
+
                       Junior Website Developer
                     </span>
-                    <span className={`text-3xl  py-2 span`}>
+                    <span
+                      className={`lg:text-3xl md:text-xl text-lg  py-2 span`}>
                       FrontEnd Web Developer
                     </span>
-                    <span className={`text-3xl  py-2 span`}>
+                    <span
+                      className={`lg:text-3xl md:text-xl text-lg  py-2 span`}>
                       Junior React Developer
                     </span>
                   </div>
@@ -126,10 +136,10 @@ const Landing = () => {
               </div>
               <div
                 data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="150"
-                className={`text-[#0B0B13] dark:text-[#b9b9bb]`}
-              >
+
+                data-aos-duration="1200"
+                className={`text-[#0B0B13] dark:text-white pb-4 lg:pb-0 md:pb-0`}>
+
                 I develop the front-end projects, using react framework ,
                 <br /> CSS library like bootstrap,tailwindCSS, mantine, Chakra
                 UI, specialize in front-end language HTML, CSS,JS, SASS.
@@ -153,15 +163,23 @@ const Landing = () => {
             </div>
           </div>
           <div
-            className={`md:hidden w-[40%] items-center justify-center lg:flex  hidden`}
-          >
+
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            className={`md:hidden w-[40%] items-center justify-center lg:flex  hidden`}>
+
             <div className="leftImg mx-auto w-[50%] h-[400px] flex justify-center items-center flex-col">
               <img
+                data-aos="fade-up"
+                data-aos-duration="1200"
                 src={landingImg}
                 className=" object-cover  w-[85%] h-[85%] z-20 block rounded shadow-lg"
                 alt=""
               />
-              <div className=" flex gap-2 items-center mt-3">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                className=" flex gap-2 items-center mt-3">
                 <p className=" bg-[#0b0b13] dark:border-blue-100 dark:border-2 w-8 h-8 flex justify-center items-center text-lg text-white p-1 rounded-full">
                   <BiLogoGithub />
                 </p>
