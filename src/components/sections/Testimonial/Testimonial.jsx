@@ -9,9 +9,9 @@ import Banner from "../../Banner/Banner";
 // import { usePagination } from "@mantine/hooks";
 // import { Splide, SplideSlide } from "@splidejs/react-splide";
 // import "@splidejs/react-splide/css";
-import kzt from "../../../assets/kzt/5.png"
-import pwl from "../../../assets/pwl/1.png"
-import kwyw from "../../../assets/kwyw/kwyw-removebg.png"
+import kzt from "../../../assets/kzt/5.png";
+import pwl from "../../../assets/pwl/1.png";
+import kwyw from "../../../assets/kwyw/kwyw-removebg.png";
 
 const Testimonial = () => {
   const data = [
@@ -49,10 +49,10 @@ const Testimonial = () => {
             {/* just circle */}
             <Banner title={"Testimonials"} />
           </div>
-          <div className=" w-[90%] lg:w-full md:w-full flex  ">
+          <div className=" w-[90%] lg:w-full md:w-full flex main ">
             <Carousel
               withIndicators
-              className="mx-auto "
+              className=" mx-auto items"
               slideGap="lg"
               loop
               align="start"
