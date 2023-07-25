@@ -1,6 +1,9 @@
 import React from "react";
 import "./experience.css";
 import Banner from "../../Banner/Banner";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const Experience = () => {
   return (
@@ -14,7 +17,10 @@ const Experience = () => {
         <Banner title="Experience"  />
         <div className=" flex flex-col gap-5 mt-8">
           {/* edu pro  */}
-          <div className=" bg-[#f7f7ff] dark:bg-[#0b0b13] rounded p-5 flex flex-col md:flex-row items-start gap-3">
+          <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className=" bg-[#f7f7ff] dark:bg-[#0b0b13] rounded p-5 flex flex-col md:flex-row items-start gap-3">
             <div className=" w-full md:w-[30%] flex flex-col gap-1 items-start">
               <h2 className=" font-semibold text-xl dark:text-white">
                 Jnr . Front-end Developer
@@ -42,7 +48,11 @@ const Experience = () => {
             </div>
           </div>
           {/* edu pro dashboard  */}
-          <div className=" bg-[#f7f7ff] dark:bg-[#0b0b13] rounded p-5 flex flex-col md:flex-row items-start gap-3">
+          <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100" 
+          className=" bg-[#f7f7ff] dark:bg-[#0b0b13] rounded p-5 flex flex-col md:flex-row items-start gap-3">
             <div className=" w-full md:w-[30%] flex flex-col gap-1 items-start">
               <h2 className=" font-semibold text-xl dark:text-white">
                 Jnr . React Developer
@@ -70,7 +80,11 @@ const Experience = () => {
             </div>
           </div>
           {/* portfolio  */}
-          <div className=" bg-[#f7f7ff] dark:bg-[#0b0b13] rounded p-5 flex flex-col md:flex-row items-start gap-3">
+          <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+          className=" bg-[#f7f7ff] dark:bg-[#0b0b13] rounded p-5 flex flex-col md:flex-row items-start gap-3">
             <div className=" w-full md:w-[30%] flex flex-col gap-1 items-start">
               <h2 className=" font-semibold text-xl dark:text-white">
                 Jnr . Front-end Developer

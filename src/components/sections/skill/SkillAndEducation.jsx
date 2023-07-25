@@ -2,6 +2,9 @@ import React from "react";
 import Skill from "./Skill";
 import Education from "./Education";
 import Banner from "../../Banner/Banner";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const SkillAndEducation = () => {
   return (
@@ -13,11 +16,18 @@ const SkillAndEducation = () => {
         <Banner title="Education & Skills" />
         <div className=" flex flex-col lg:flex-row gap-12 lg:gap-[7%] mt-10">
           {/* education  */}
-          <div className=" lg:w-[33%] md:w-full bg-[#f7f7ff] dark:bg-[#0b0b13] rounded p-3">
+          <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className=" lg:w-[33%] md:w-full bg-[#f7f7ff] dark:bg-[#0b0b13] rounded p-3">
             <Education />
           </div>
           {/* skill  */}
-          <div className=" lg:w-[60%] md:w-full">
+          <div
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="50"
+          className=" lg:w-[60%] md:w-full">
             <Skill />
           </div>
         </div>

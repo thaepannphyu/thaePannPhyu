@@ -5,6 +5,7 @@ import { BiLogoGithub } from "react-icons/bi";
 import { BiLogoTwitter } from "react-icons/bi";
 import { BiLogoInstagram } from "react-icons/bi";
 // console.log(animateTextList);
+import "../contact/contact.css"
 
 const Landing = () => {
   const animateRef = useRef();
@@ -60,7 +61,7 @@ const Landing = () => {
 
   return (
     <>
-      <div className=" dark:bg-black">
+      <div className=" dark:bg-black bg-[#F7F7FF] duration-200">
         <div className=" w-[90%]  mx-auto bg-transparent -z-20 flex justify-between">
           <div className="flex justify-between w-[30%] me-auto">
             <p className=" dark:text-white pt-3 cursor-copy select-none hover:text-[#525fe1] active:text-[#303aad]">
@@ -73,7 +74,7 @@ const Landing = () => {
         </div>
       </div>
       <div
-        className={`h-screen   select-none w-full overflow  flex justify-center flex-col items-center dark:bg-black`}>
+        className={`h-screen select-none w-full overflow  flex justify-center flex-col items-center dark:bg-black bg-[#F7F7FF] duration-200`}>
         <div
           className={`w-[90%] lg:landing-Bg-After relative  flex  mx-auto justify-between items-center`}>
           <div className={`w-full lg:w-[40%]  md:w-[50%] h-[400px] `}>
@@ -112,7 +113,7 @@ const Landing = () => {
               </div>
               {/* btn */}
               <div>
-                <button
+                {/* <button
                   className={`px-6 py-3 rounded hover:-translate-y-2
             
               border-[1.5px] border-black hover:bg-white
@@ -121,7 +122,10 @@ const Landing = () => {
                 dark:hover:text-white bg-[#0B0B13]
                text-white dark:text-black dark:bg-white dark:text-[##0B0B13] transition-C`}>
                   DOWNLOAD CV
-                </button>
+                </button> */}
+                <button className="go-up py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded">
+                DOWNLOAD CV
+              </button>
               </div>
             </div>
           </div>

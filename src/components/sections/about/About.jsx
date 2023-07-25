@@ -7,6 +7,9 @@ import { BiLogoInstagram } from "react-icons/bi";
 import { BiLogoGithub } from "react-icons/bi";
 import { SiNetlify } from "react-icons/si";
 import Banner from "../../Banner/Banner";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const About = () => {
   return (
@@ -14,7 +17,10 @@ const About = () => {
       <div className=" flex flex-col justify-center items-center pt-24 bg-[#f7f7ff] dark:bg-[#0e0e17] duration-200">
         <div className=" w-[95%] max-lg:w-[90%] flex justify-center item-center max-lg:flex-col ">
           {/* left img  */}
-          <div className="w-[40%] min-[1116px]:w-[35%] max-lg:w-full flex flex-col justify-center item-center gap-8 ">
+          <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="w-[40%] min-[1116px]:w-[35%] max-lg:w-full flex flex-col justify-center item-center gap-8 ">
             {/* img circle  */}
             <div className="max-lg:flex max-lg:justify-center">
               <div className="relative w-[280px] h-[280px] max-[330px]:w-[250px] max-[330px]:h-[250px] max-[300px]:w-[220px] max-[300px]:h-[220px] max-[283px]:w-[190px] max-[283px]:h-[190px]">
@@ -73,7 +79,11 @@ const About = () => {
           </div>
 
           {/*right biography */}
-          <div className=" w-[55%] min-[1116px]:w-[60%] max-lg:w-full text-left ">
+          <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+          className=" w-[55%] min-[1116px]:w-[60%] max-lg:w-full text-left ">
             <div>
               {/* <h1 className="text-3xl text-black dark:text-white font-bold">
                 Biography
