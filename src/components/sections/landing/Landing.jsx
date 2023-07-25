@@ -7,6 +7,12 @@ import { BiLogoInstagram } from "react-icons/bi";
 // console.log(animateTextList);
 import "../contact/contact.css";
 
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
+
 const Landing = () => {
   const animateRef = useRef();
   const [time, setTime] = useState(new Date());
@@ -61,12 +67,14 @@ const Landing = () => {
 
   return (
     <>
+
       <div
         data-aos="fade-up"
         data-aos-duration="1200"
         className=" dark:bg-black bg-[#F7F7FF] duration-200 hidden lg:block md:block">
+
         <div className=" w-[90%]  mx-auto bg-transparent -z-20 flex justify-between">
-          <div className="flex justify-between w-[30%] me-auto">
+          <div className="flex max-[400px]:flex-col max-[400px]:gap-0 justify-between gap-8 pt-5">
             <p className=" dark:text-white pt-3 cursor-copy select-none hover:text-[#525fe1] active:text-[#303aad]">
               +959 9608 33035
             </p>
@@ -77,6 +85,7 @@ const Landing = () => {
         </div>
       </div>
       <div
+
         className={`h-screen  select-none w-full overflow  flex justify-center flex-col items-center dark:bg-black bg-[#F7F7FF] duration-200`}>
         <div
           className={`w-[90%] py-5 lg:landing-Bg-After relative  flex  mx-auto justify-between items-center`}>
@@ -87,23 +96,31 @@ const Landing = () => {
             {/* left side body */}
             <div className="flex sm:lbg flex-col gap-y-4 md:gap-y-5 lg:gap-y-8">
               <div className={`text-[#0B0B13]  dark:text-white`}>
+
                 Hello ~ My name is
               </div>
               <div
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                className={` tracking-wider lg:text-6xl md:text-4xl text-3xl dark:text-white text-[#0B0B13]`}>
-                SAKURA JUNG
+                className={`font-bold tracking-wider lg:text-6xl md:text-4xl text-3xl dark:text-white text-[#0B0B13]`}>
+                Sakura Jung
+
               </div>
               {/* left text design body */}
               <div className=" ">
                 <div
-                  className={` flex-col flex w-[90%]    relative primary-text overflow-hidden  `}>
+                  className={` flex-col flex w-[90%] relative primary-text font-semibold overflow-hidden  `}
+                >
                   <div
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="100"
                     ref={animateRef}
+
                     className=" flex flex-col justify-center ">
                     <span
                       className={`lg:text-3xl md:text-xl text-lg py-2 span`}>
+
                       Junior Website Developer
                     </span>
                     <span
@@ -119,8 +136,10 @@ const Landing = () => {
               </div>
               <div
                 data-aos="fade-up"
+
                 data-aos-duration="1200"
                 className={`text-[#0B0B13] dark:text-white pb-4 lg:pb-0 md:pb-0`}>
+
                 I develop the front-end projects, using react framework ,
                 <br /> CSS library like bootstrap,tailwindCSS, mantine, Chakra
                 UI, specialize in front-end language HTML, CSS,JS, SASS.
@@ -144,9 +163,11 @@ const Landing = () => {
             </div>
           </div>
           <div
+
             data-aos="fade-up"
             data-aos-duration="1200"
             className={`md:hidden w-[40%] items-center justify-center lg:flex  hidden`}>
+
             <div className="leftImg mx-auto w-[50%] h-[400px] flex justify-center items-center flex-col">
               <img
                 data-aos="fade-up"
