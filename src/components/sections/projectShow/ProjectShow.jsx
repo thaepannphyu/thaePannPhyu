@@ -4,18 +4,16 @@ import pj2 from "../../../assets/projectPhoto/pj2.png";
 import pj3 from "../../../assets/projectPhoto/pj3.png";
 import "./projectShow.css";
 import Banner from "../../Banner/Banner";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from "aos";
+import "aos/dist/aos.css";
 AOS.init();
 
 const ProjectShow = () => {
   return (
     <div className="w-[100%] flex flex-col gap-16 justify-center bg-[#FFFFFF] dark:bg-[#000000] duration-200">
-
       <div className="w-[90%] mt-16 max-sm:mt-20 flex gap-5 flex-col justify-center mx-auto">
-
         <h1 className=" text-center">
-        <Banner title="Recent Project" />
+          <Banner title="Recent Project" />
         </h1>
         <p className="w-[70%] mx-auto text-[#0B0B13] dark:text-[#9C9C9F] text-center tracking-widest text-sm">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem
@@ -24,11 +22,13 @@ const ProjectShow = () => {
           et.
         </p>
       </div>
-      <div className="w-[90%] flex max-lg:flex-wrap max-sm:flex-col max-lg:gap-14 justify-between mb-24 mx-auto">
-        {/* project card  */}
-        <a
+      <div
         data-aos="fade-right"
         data-aos-duration="1000"
+        className="w-[90%] flex max-lg:flex-wrap max-sm:flex-col max-lg:gap-14 justify-between mb-24 mx-auto"
+      >
+        {/* project card  */}
+        <a
           href="https://edu-pro-dashboard2.netlify.app"
           className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] card duration-300 overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow-md"
         >
@@ -52,9 +52,6 @@ const ProjectShow = () => {
           </div>
         </a>
         <a
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="50"
           href="https://eduvide.netlify.app"
           className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] card duration-300 overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow-md"
         >
@@ -78,9 +75,6 @@ const ProjectShow = () => {
           </div>
         </a>
         <a
-         data-aos="fade-right"
-         data-aos-duration="1000"
-         data-aos-delay="100"
           href="https://contact-web1.netlify.app"
           className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%] max-lg:mx-auto card duration-300 overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow-md"
         >
