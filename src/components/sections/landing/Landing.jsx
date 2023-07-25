@@ -6,6 +6,9 @@ import { BiLogoTwitter } from "react-icons/bi";
 import { BiLogoInstagram } from "react-icons/bi";
 // console.log(animateTextList);
 import "../contact/contact.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const Landing = () => {
   const animateRef = useRef();
@@ -63,7 +66,7 @@ const Landing = () => {
     <>
       <div className=" dark:bg-black bg-[#F7F7FF] duration-200">
         <div className=" w-[90%]  mx-auto bg-transparent -z-20 flex justify-between">
-          <div className="flex justify-between w-[30%] me-auto">
+          <div className="flex max-[400px]:flex-col max-[400px]:gap-0 justify-between gap-8 pt-5">
             <p className=" dark:text-white pt-3 cursor-copy select-none hover:text-[#525fe1] active:text-[#303aad]">
               +959 9608 33035
             </p>
@@ -77,21 +80,30 @@ const Landing = () => {
         className={`h-screen select-none w-full overflow  flex justify-center flex-col items-center dark:bg-black bg-[#F7F7FF] duration-200`}>
         <div
           className={`w-[90%] lg:landing-Bg-After relative  flex  mx-auto justify-between items-center`}>
-          <div className={`w-full lg:w-[40%]  md:w-[50%] h-[400px] `}>
+          <div className={`w-[60%] max-lg:w-full`}>
             {/* left side body */}
             <div className="flex flex-col gap-y-8">
-              <div className={`text-[#0B0B13]  dark:text-white`}>
+              <div
+              data-aos="fade-up"
+              data-aos-duration="1000" 
+              className={`text-[#0B0B13]  dark:text-[white] text-xl`}>
                 Hello ~ My name is
               </div>
               <div
-                className={` tracking-wider lg:text-6xl md:text-4xl text-3xl dark:text-white text-[#0B0B13]`}>
-                SAKURA JUNG
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="50" 
+                className={`font-bold tracking-wider lg:text-6xl md:text-4xl text-3xl dark:text-white text-[#0B0B13]`}>
+                Sakura Jung
               </div>
               {/* left text design body */}
               <div className=" ">
                 <div
-                  className={` flex-col flex w-[90%]    relative primary-text overflow-hidden  `}>
+                  className={` flex-col flex w-[90%] relative primary-text font-semibold overflow-hidden  `}>
                   <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="100" 
                     ref={animateRef}
                     className=" flex flex-col justify-center ">
                     <span className={`text-3xl py-2 span`}>
@@ -106,13 +118,18 @@ const Landing = () => {
                   </div>
                 </div>
               </div>
-              <div className={`text-[#0B0B13] dark:text-white`}>
+              <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="150" 
+              className={`text-[#0B0B13] dark:text-[#b9b9bb]`}>
                 I develop the front-end projects, using react framework ,
                 <br /> CSS library like bootstrap,tailwindCSS, mantine, Chakra
                 UI, specialize in front-end language HTML, CSS,JS, SASS.
               </div>
               {/* btn */}
               <div>
+              
                 {/* <button
                   className={`px-6 py-3 rounded hover:-translate-y-2
             
@@ -123,10 +140,15 @@ const Landing = () => {
                text-white dark:text-black dark:bg-white dark:text-[##0B0B13] transition-C`}>
                   DOWNLOAD CV
                 </button> */}
-                <button className="go-up py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded">
+                <button
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="150" 
+                 className="go-up py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded">
                 DOWNLOAD CV
               </button>
               </div>
+
             </div>
           </div>
           <div
