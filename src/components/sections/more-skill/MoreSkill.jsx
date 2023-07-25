@@ -16,7 +16,7 @@ const MoreSkill = () => {
         <Banner title="My Best Skills" />
         <div className="  mt-12">
           {/* Communication  */}
-          <div className=" grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 main gap-5">
+          <div className=" grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-5">
             {/* <h2 className=" border-4 border-yellow-800 rounded-full w-12 h-12 flex justify-center items-center"><span className=" border border-red-400 rounded-full w-10 h-10 flex justify-center items-center">90%</span></h2> */}
             <p
             data-aos="fade-right"
