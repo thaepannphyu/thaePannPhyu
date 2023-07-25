@@ -9,12 +9,14 @@ import Banner from "../../Banner/Banner";
 // import { usePagination } from "@mantine/hooks";
 // import { Splide, SplideSlide } from "@splidejs/react-splide";
 // import "@splidejs/react-splide/css";
+import kzt from "../../../assets/kzt/5.png"
+import pwl from "../../../assets/pwl/1.png"
 
 const Testimonial = () => {
   const data = [
     {
       id: 1,
-      image: img,
+      image: kzt,
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, corporis nesciunt quidem veritatis tempore quae.",
       name: "Khine Zin Thin",
@@ -30,7 +32,7 @@ const Testimonial = () => {
     },
     {
       id: 3,
-      image: img2,
+      image: pwl,
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, corporis nesciunt quidem veritatis tempore quae.",
       name: "Phyo Wunna Lin",
@@ -79,7 +81,7 @@ const Testimonial = () => {
                     size="50%">
                     <div className="  flex gap-4 lg:gap-0  bg-white dark:bg-black text-dark dark:text-white shadow-lg rounded-lg flex-col lg:flex-row md:flex-row lg:items-start md:items-start  p-6 ">
                       <div className="mx-auto   lg:mx-px md:mx-px">
-                        <div className="md:scale-75 lg:h-36 lg:w-36 w-24 h-24 overflow-hidden rounded-[50%] bg-orange-400 ">
+                        <div className="md:scale-75 lg:h-36 lg:w-36 w-24 h-24 overflow-hidden rounded-[50%] bg-blue-600 ">
                           <img
                             src={each.image}
                             alt=""
