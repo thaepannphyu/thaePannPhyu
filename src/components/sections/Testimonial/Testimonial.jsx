@@ -70,7 +70,7 @@ const Testimonial = () => {
                 },
               }}
               breakpoints={[
-                { maxWidth: "lg", slideSize: "80%" },
+                { maxWidth: "lg", slideSize: "50%" },
                 { maxWidth: "md", slideSize: "50%" },
                 { maxWidth: "sm", slideSize: "100%", slideGap: 0 },
               ]}>
