@@ -25,13 +25,13 @@ const Experience = () => {
               <h2 className=" font-semibold text-xl dark:text-white">
                 Jnr . Front-end Developer
               </h2>
-              <h2 className=" italic text-slate-600 dark:text-[#ffffffcc]">
+              <h2 className=" italic text-[16px] font-light text-slate-600 dark:text-[#ffffffcc]">
                 MMS IT / Workshop
               </h2>
-              <h2 className=" text-slate-600 dark:text-[#ffffffcc]">
+              <h2 className=" text-slate-600 text-[16px] font-light dark:text-[#d9d9d9]">
                 June 2023 - Present
               </h2>
-              <button className=" primary-bg px-3 py-1 rounded text-white font-semibold">
+              <button className="text-[16px] primary-bg px-3 py-1 rounded text-white">
                 Intern
               </button>
             </div>
@@ -39,7 +39,7 @@ const Experience = () => {
               <h2 className=" font-semibold text-xl dark:text-white">
                 Edu-Pro
               </h2>
-              <p className=" text-slate-600 dark:text-[#ffffffcc]">
+              <p className="text-[16px] font-light text-slate-600 dark:text-[#b9b9b9]">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
                 quam nesciunt labore veritatis minus delectus iure assumenda
                 optio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -57,13 +57,13 @@ const Experience = () => {
               <h2 className=" font-semibold text-xl dark:text-white">
                 Jnr . React Developer
               </h2>
-              <h2 className=" italic text-slate-600 dark:text-[#ffffffcc]">
+              <h2 className=" italic text-slate-600 text-[16px] font-light dark:text-[#ffffffcc]">
                 MMS IT / Workshop
               </h2>
-              <h2 className=" text-slate-600 dark:text-[#ffffffcc]">
+              <h2 className=" text-slate-600 text-[16px] font-light dark:text-[#d9d9d9]">
                 June 2023 - Present
               </h2>
-              <button className=" primary-bg px-3 py-1 rounded text-white font-semibold">
+              <button className="text-[16px] primary-bg px-3 py-1 rounded text-white">
                 Intern
               </button>
             </div>
@@ -71,7 +71,7 @@ const Experience = () => {
               <h2 className=" font-semibold text-xl dark:text-white">
                 Edu-Pro-Dashboard
               </h2>
-              <p className=" text-slate-600 dark:text-[#ffffffcc]">
+              <p className="text-[16px] font-light text-slate-600 dark:text-[#b9b9b9]">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
                 quam nesciunt labore veritatis minus delectus iure assumenda
                 optio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -89,13 +89,13 @@ const Experience = () => {
               <h2 className=" font-semibold text-xl dark:text-white">
                 Jnr . Front-end Developer
               </h2>
-              <h2 className=" italic text-slate-600 dark:text-[#ffffffcc]">
+              <h2 className=" italic text-slate-600 text-[16px] font-light dark:text-[#ffffffcc]">
                 MMS IT / Workshop
               </h2>
-              <h2 className=" text-slate-600 dark:text-[#ffffffcc]">
+              <h2 className=" text-slate-600 text-[16px] font-light dark:text-[#d9d9d9]">
                 June 2023 - Present
               </h2>
-              <button className=" primary-bg px-3 py-1 rounded text-white font-semibold">
+              <button className="text-[16px] primary-bg px-3 py-1 rounded text-white">
                 Self-Develop
               </button>
             </div>
@@ -103,7 +103,7 @@ const Experience = () => {
               <h2 className=" font-semibold text-xl dark:text-white">
                 Portfolio
               </h2>
-              <p className=" text-slate-600 dark:text-[#ffffffcc]">
+              <p className="text-[16px] font-light text-slate-600 dark:text-[#b9b9b9]">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
                 quam nesciunt labore veritatis minus delectus iure assumenda
                 optio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
