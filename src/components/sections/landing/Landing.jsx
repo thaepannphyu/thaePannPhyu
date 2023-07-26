@@ -66,11 +66,7 @@ const Landing = () => {
   return (
     <>
       <div className=" dark:bg-black bg-[#FFFFFF] duration-200 hidden lg:block md:block">
-        <div
-          data-aos="fade-up"
-          data-aos-duration="1200"
-          className=" w-[90%]  mx-auto bg-transparent -z-20 flex justify-between"
-        >
+        <div className=" w-[90%]  mx-auto bg-transparent -z-20 flex justify-between">
           <div className="flex max-[400px]:flex-col max-[400px]:gap-0 justify-between gap-8 pt-5">
             <p className=" dark:text-white pt-3 cursor-copy select-none hover:text-[#525fe1] active:text-[#303aad]">
               +959 9608 33035
