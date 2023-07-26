@@ -71,7 +71,7 @@ const Landing = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1200"
-        className=" dark:bg-black bg-[#F7F7FF] duration-200 hidden lg:block md:block">
+        className=" dark:bg-black bg-[#FFFFFF] duration-200 hidden lg:block md:block">
 
         <div className=" w-[90%]  mx-auto bg-transparent -z-20 flex justify-between">
           <div className="flex max-[400px]:flex-col max-[400px]:gap-0 justify-between gap-8 pt-5">
@@ -86,7 +86,7 @@ const Landing = () => {
       </div>
       <div
 
-        className={`h-screen  select-none w-full overflow  flex justify-center flex-col items-center dark:bg-black bg-[#F7F7FF] duration-200`}>
+        className={`h-screen  select-none w-full overflow  flex justify-center flex-col items-center dark:bg-black bg-[#FFFFFF] duration-200`}>
         <div
           className={`w-[90%] py-5 lg:landing-Bg-After relative  flex  mx-auto justify-between items-center`}>
           <div
