@@ -45,8 +45,6 @@ const Testimonial = () => {
     <div className="bg-[#F7F7FF] dark:bg-[#0E0E17] duration-200 w-full pt-5 pb-20">
       <div className=" w-[90%]  mx-auto flex flex-col items-center justify-center gap-16 ">
         <div
-          data-aos="fade-up"
-          data-aos-duration="1000"
           className="w-full relative flex flex-col items-center justify-center gap-20">
           <div className=" w-full relative ">
             {/* just circle */}
@@ -87,8 +85,8 @@ const Testimonial = () => {
                     <div
                       data-aos="fade-up"
                       data-aos-duration="1200"
-                      className="  flex gap-4 lg:gap-0  bg-white dark:bg-black text-dark dark:text-white shadow-lg rounded-lg flex-col lg:flex-row md:flex-row lg:items-start md:items-start  p-6 ">
-      <div className="mx-auto   lg:mx-px md:mx-px">
+                      className=" flex gap-4 lg:gap-0 bg-white dark:bg-[#010101] shadow-lg rounded-lg flex-col lg:flex-row md:flex-row lg:items-start md:items-start  p-6 ">
+                      <div className="mx-auto lg:mx-px md:mx-px">
                         <div className="md:scale-75 lg:h-36 lg:w-36 w-24 h-24 overflow-hidden rounded-[50%] bg-blue-600 ">
                           <img
                             src={each.image}
@@ -98,15 +96,13 @@ const Testimonial = () => {
                         </div>
                       </div>
                       <div
-                        data-aos="fade-up"
-                        data-aos-duration="1200"
-                        className="lg:w-[80%] md:w-[80%] w-full   flex flex-col  gap-8 lg:h-40">
-                        <div className=" tracking-wide ">
+                        className="lg:w-[80%] md:w-[80%] w-full flex flex-col justify-start gap-4 lg:h-40">
+                        <div className=" max-md:text-center text-[15px] leading-6 font-light text-black dark:text-[#ccc]">
                           {each.description}
                         </div>
-                        <div className=" flex flex-col gap-4 my-auto">
-                          <h1 className=" mx-auto lg:mx-px ">{each.name}</h1>
-                          <div className=" mx-auto lg:mx-px">{each.work}</div>
+                        <div className=" max-md:text-center flex flex-col gap-1">
+                          <h1 className=" tracking-wide lg:mx-px text-lg font-semibold text-black dark:text-white">{each.name}</h1>
+                          <div className=" lg:mx-px text-[15px] font-light text-black dark:text-[#ccc]">{each.work}</div>
                         </div>
                       </div>
                     </div>

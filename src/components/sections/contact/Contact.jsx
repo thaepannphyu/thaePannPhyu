@@ -54,7 +54,7 @@ const Contact = () => {
         <div
         data-aos="fade-right"
         data-aos-duration="1000"
-        data-aos-delay="50"
+        data-aos-delay="100"
         className="flex flex-col gap-5 w-[55%] max-lg:w-[100%]">
           <h1 className=" text-black dark:text-white text-2xl font-medium">
             Say Something
