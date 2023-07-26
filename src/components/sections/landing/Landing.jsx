@@ -92,7 +92,7 @@ const Landing = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            className={`w-full lg:w-[40%]  md:w-[50%] lg:h-[400px] `}>
+            className={`w-[60%] max-lg:w-full`}>
             {/* left side body */}
             <div className="flex sm:lbg flex-col gap-y-4 md:gap-y-5 lg:gap-y-8">
               <div className={`text-[#0B0B13]  dark:text-white`}>
@@ -101,7 +101,8 @@ const Landing = () => {
               </div>
               <div
                 data-aos="fade-up"
-                data-aos-duration="1200"
+                data-aos-duration="1000"
+                data-aos-delay="50"
                 className={`font-bold tracking-wider lg:text-6xl md:text-4xl text-3xl dark:text-white text-[#0B0B13]`}>
                 Sakura Jung
 
@@ -119,16 +120,16 @@ const Landing = () => {
 
                     className=" flex flex-col justify-center ">
                     <span
-                      className={`lg:text-3xl md:text-xl text-lg py-2 span`}>
+                      className={`text-3xl py-2 span`}>
 
                       Junior Website Developer
                     </span>
                     <span
-                      className={`lg:text-3xl md:text-xl text-lg  py-2 span`}>
+                      className={`text-3xl  py-2 span`}>
                       FrontEnd Web Developer
                     </span>
                     <span
-                      className={`lg:text-3xl md:text-xl text-lg  py-2 span`}>
+                      className={`text-3xl  py-2 span`}>
                       Junior React Developer
                     </span>
                   </div>
@@ -136,9 +137,9 @@ const Landing = () => {
               </div>
               <div
                 data-aos="fade-up"
-
-                data-aos-duration="1200"
-                className={`text-[#0B0B13] dark:text-white pb-4 lg:pb-0 md:pb-0`}>
+                data-aos-duration="1000"
+                data-aos-delay="150"
+                className={`text-[#0B0B13] dark:text-[#b9b9b9] pb-4 lg:pb-0 md:pb-0`}>
 
                 I develop the front-end projects, using react framework ,
                 <br /> CSS library like bootstrap,tailwindCSS, mantine, Chakra
