@@ -169,6 +169,7 @@ const Landing = () => {
               <div
                 data-aos="fade-up"
                 data-aos-duration="1000"
+                data-aos-once="true"
                 className=" flex gap-2 items-center mt-3"
               >
                 <p className=" bg-[#0b0b13] dark:border-blue-100 dark:border-2 w-8 h-8 flex justify-center items-center text-lg text-white p-1 rounded-full">
