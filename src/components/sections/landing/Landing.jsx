@@ -139,7 +139,7 @@ const Landing = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="150"
-                className={`text-[#0B0B13] dark:text-[#b9b9b9] pb-4 lg:pb-0 md:pb-0`}>
+                className={`text-[#0B0B13] dark:text-[#b9b9b9]  pb-4 lg:pb-0 md:pb-0`}>
 
                 I develop the front-end projects, using react framework ,
                 <br /> CSS library like bootstrap,tailwindCSS, mantine, Chakra

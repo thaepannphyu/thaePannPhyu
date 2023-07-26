@@ -97,12 +97,12 @@ const Testimonial = () => {
                       </div>
                       <div
                         className="lg:w-[80%] md:w-[80%] w-full flex flex-col justify-start gap-4 lg:h-40">
-                        <div className=" max-md:text-center text-[15px] leading-6 font-light text-black dark:text-[#ccc]">
+                        <div className=" max-md:text-center text-[15px] leading-6 text-black dark:text-[#ccc]">
                           {each.description}
                         </div>
                         <div className=" max-md:text-center flex flex-col gap-1">
                           <h1 className=" tracking-wide lg:mx-px text-lg font-semibold text-black dark:text-white">{each.name}</h1>
-                          <div className=" lg:mx-px text-[15px] font-light text-black dark:text-[#ccc]">{each.work}</div>
+                          <div className=" lg:mx-px text-[15px] text-black dark:text-[#ccc]">{each.work}</div>
                         </div>
                       </div>
                     </div>

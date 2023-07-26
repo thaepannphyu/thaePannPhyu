@@ -20,7 +20,7 @@ const ProjectShow = () => {
         <p
         data-aos="fade-up"
         data-aos-duration="1200"
-        className="w-[70%] mx-auto text-[#0B0B13] dark:text-[#d9d9d9] text-center tracking-wider text-[16px] font-light">
+        className="w-[70%] mx-auto text-[#0B0B13] dark:text-[#ccc] text-center tracking-wider text-[16px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem
           culpa nulla unde voluptatum. Iusto dolorum omnis unde debitis minima?
           Odio provident vel voluptatibus magni, sint minus repudiandae facilis

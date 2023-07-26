@@ -25,10 +25,10 @@ const Experience = () => {
               <h2 className=" font-semibold text-xl dark:text-white">
                 Jnr . Front-end Developer
               </h2>
-              <h2 className=" italic text-[16px] font-light text-slate-600 dark:text-[#ffffffcc]">
+              <h2 className=" italic text-[16px] text-slate-600 dark:text-[#ffffffcc]">
                 MMS IT / Workshop
               </h2>
-              <h2 className=" text-slate-600 text-[16px] font-light dark:text-[#d9d9d9]">
+              <h2 className=" text-slate-600 text-[16px] dark:text-[#ccc]">
                 June 2023 - Present
               </h2>
               <button className="text-[16px] primary-bg px-3 py-1 rounded text-white">
@@ -39,7 +39,7 @@ const Experience = () => {
               <h2 className=" font-semibold text-xl dark:text-white">
                 Edu-Pro
               </h2>
-              <p className="text-[16px] font-light text-slate-600 dark:text-[#b9b9b9]">
+              <p className="text-[16px] text-slate-600 dark:text-[#ccc]">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
                 quam nesciunt labore veritatis minus delectus iure assumenda
                 optio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -57,10 +57,10 @@ const Experience = () => {
               <h2 className=" font-semibold text-xl dark:text-white">
                 Jnr . React Developer
               </h2>
-              <h2 className=" italic text-slate-600 text-[16px] font-light dark:text-[#ffffffcc]">
+              <h2 className=" italic text-slate-600 text-[16px] dark:text-[#ffffffcc]">
                 MMS IT / Workshop
               </h2>
-              <h2 className=" text-slate-600 text-[16px] font-light dark:text-[#d9d9d9]">
+              <h2 className=" text-slate-600 text-[16px] dark:text-[#ccc]">
                 June 2023 - Present
               </h2>
               <button className="text-[16px] primary-bg px-3 py-1 rounded text-white">
@@ -71,7 +71,7 @@ const Experience = () => {
               <h2 className=" font-semibold text-xl dark:text-white">
                 Edu-Pro-Dashboard
               </h2>
-              <p className="text-[16px] font-light text-slate-600 dark:text-[#b9b9b9]">
+              <p className="text-[16px] text-slate-600 dark:text-[#ccc]">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
                 quam nesciunt labore veritatis minus delectus iure assumenda
                 optio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -89,10 +89,10 @@ const Experience = () => {
               <h2 className=" font-semibold text-xl dark:text-white">
                 Jnr . Front-end Developer
               </h2>
-              <h2 className=" italic text-slate-600 text-[16px] font-light dark:text-[#ffffffcc]">
+              <h2 className=" italic text-slate-600 text-[16px] dark:text-[#ffffffcc]">
                 MMS IT / Workshop
               </h2>
-              <h2 className=" text-slate-600 text-[16px] font-light dark:text-[#d9d9d9]">
+              <h2 className=" text-slate-600 text-[16px] dark:text-[#ccc]">
                 June 2023 - Present
               </h2>
               <button className="text-[16px] primary-bg px-3 py-1 rounded text-white">
@@ -103,7 +103,7 @@ const Experience = () => {
               <h2 className=" font-semibold text-xl dark:text-white">
                 Portfolio
               </h2>
-              <p className="text-[16px] font-light text-slate-600 dark:text-[#b9b9b9]">
+              <p className="text-[16px] text-slate-600 dark:text-[#ccc]">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
                 quam nesciunt labore veritatis minus delectus iure assumenda
                 optio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
