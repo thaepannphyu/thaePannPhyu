@@ -119,3 +119,7 @@
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #58627400),
     var(--tw-ring-shadow, 0 0 #8339c700), var(--tw-shadow) !important;
 }
+
+.transiltionS {
+  transition: 1.1s;
+}

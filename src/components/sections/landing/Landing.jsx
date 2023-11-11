@@ -68,26 +68,27 @@ const Landing = () => {
       <div className=" dark:bg-black bg-[#FFFFFF] duration-200 hidden lg:block md:block">
         <div className=" w-[90%]  mx-auto bg-transparent -z-20 flex justify-between">
           <div className="flex max-[400px]:flex-col max-[400px]:gap-0 justify-between gap-8 pt-5">
-            <p className=" dark:text-white pt-3 cursor-copy select-none hover:text-[#525fe1] active:text-[#303aad]">
-              +959 9608 33035
-            </p>
-            <p className=" dark:text-white pt-3 cursor-copy  select-none hover:text-[#525fe1] active:text-[#303aad] ">
-              phyu24655@gmail.com
-            </p>
+            <a href="tel:09960833035">
+              <p className=" dark:text-white pt-3 cursor-copy select-none hover:text-[#525fe1] active:text-[#303aad]">
+                +959 9608 33035
+              </p>
+            </a>
+            <a href="mailto:phyu24655@gmail.com">
+              <p className=" dark:text-white pt-3 cursor-copy  select-none hover:text-[#525fe1] active:text-[#303aad] ">
+                phyu24655@gmail.com
+              </p>
+            </a>
           </div>
         </div>
       </div>
       <div
-        className={`h-screen  select-none w-full overflow  flex justify-center flex-col items-center dark:bg-black bg-[#FFFFFF] duration-200`}
-      >
+        className={`h-screen  select-none w-full overflow  flex justify-center flex-col items-center dark:bg-black bg-[#FFFFFF] duration-200`}>
         <div
-          className={`w-[90%] py-5 lg:landing-Bg-After relative  flex  mx-auto justify-between items-center`}
-        >
+          className={`w-[90%] py-5 lg:landing-Bg-After relative  flex  mx-auto justify-between items-center`}>
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            className={`w-[60%] max-lg:w-full`}
-          >
+            className={`w-[60%] max-lg:w-full`}>
             {/* left side body */}
             <div className="flex sm:lbg flex-col gap-y-4 md:gap-y-5 lg:gap-y-8">
               <div className={`text-[#0B0B13]  dark:text-white`}>
@@ -97,22 +98,19 @@ const Landing = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="50"
-                className={`font-bold tracking-wider lg:text-6xl md:text-4xl text-3xl dark:text-white text-[#0B0B13]`}
-              >
-                Sakura Jung
+                className={`font-bold tracking-wider lg:text-6xl md:text-4xl text-3xl dark:text-white text-[#0B0B13]`}>
+                Thae Pann Phyu
               </div>
               {/* left text design body */}
               <div className=" ">
                 <div
-                  className={` flex-col flex w-[90%] relative primary-text font-semibold overflow-hidden  `}
-                >
+                  className={` flex-col flex w-[90%] relative primary-text font-semibold overflow-hidden  `}>
                   <div
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="100"
                     ref={animateRef}
-                    className=" flex flex-col justify-center "
-                  >
+                    className=" flex flex-col justify-center ">
                     <span className={`text-3xl py-2 span`}>
                       Junior Website Developer
                     </span>
@@ -129,8 +127,7 @@ const Landing = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="150"
-                className={`text-[#0B0B13] dark:text-[#b9b9b9]  pb-4 lg:pb-0 md:pb-0`}
-              >
+                className={`text-[#0B0B13] dark:text-[#b9b9b9]  pb-4 lg:pb-0 md:pb-0`}>
                 I develop the front-end projects, using react framework ,
                 <br /> CSS library like bootstrap,tailwindCSS, mantine, Chakra
                 UI, specialize in front-end language HTML, CSS,JS, SASS.
@@ -156,8 +153,7 @@ const Landing = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1200"
-            className={`md:hidden w-[40%] items-center justify-center lg:flex  hidden`}
-          >
+            className={`md:hidden w-[40%] items-center justify-center lg:flex  hidden`}>
             <div className="leftImg mx-auto w-[50%] h-[400px] flex justify-center items-center flex-col">
               <img
                 data-aos="fade-up"
@@ -170,15 +166,14 @@ const Landing = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-once="true"
-                className=" flex gap-2 items-center mt-3"
-              >
-                <p className=" bg-[#0b0b13] dark:border-blue-100 dark:border-2 w-8 h-8 flex justify-center items-center text-lg text-white p-1 rounded-full">
+                className=" flex gap-2 items-center mt-3">
+                <p className=" bg-[#0b0b13] hover:bg-blue-500 z-20 hover:border-2 hover:border-[#0b0b13] hover:scale-110 transiltionS    dark:border-blue-100 dark:border-2 w-8 h-8 flex justify-center items-center text-lg text-white p-1 rounded-full">
                   <BiLogoGithub />
                 </p>
-                <p className=" bg-[#0b0b13] dark:border-blue-100 dark:border-2 w-8 h-8 flex justify-center items-center text-lg text-white p-1 rounded-full">
+                <p className=" bg-[#0b0b13] hover:bg-blue-500 z-20 hover:border-2 hover:border-[#0b0b13] hover:scale-110 transiltionS    dark:border-blue-100 dark:border-2 w-8 h-8 flex justify-center items-center text-lg text-white p-1 rounded-full">
                   <BiLogoTwitter />
                 </p>
-                <p className=" bg-[#0b0b13] dark:border-blue-100 dark:border-2 w-8 h-8 flex justify-center items-center text-lg text-white p-1 rounded-full">
+                <p className=" bg-[#0b0b13] hover:bg-blue-500 z-20 hover:border-2 hover:border-[#0b0b13] hover:scale-110 transiltionS   dark:border-blue-100 dark:border-2 w-8 h-8 flex justify-center items-center text-lg text-white p-1 rounded-full">
                   <BiLogoInstagram />
                 </p>
               </div>
