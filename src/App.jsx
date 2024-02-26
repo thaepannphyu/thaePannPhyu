@@ -48,9 +48,10 @@ const App = () => {
             <section>
               <SkillAndEducation />
             </section>
-          <section id="3">
+            <section id="3">
             <ProjectShow />
           </section>
+          
           </div>
 
 
