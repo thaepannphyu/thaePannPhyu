@@ -66,7 +66,7 @@ const ProjectShow = (solo) => {
         data-aos-duration="1000"
         data-aos-delay="50">
         <a
-          href="https://eduvide.netlify.app"
+          href="https://edu-pro-three.vercel.app/"
           className=" card duration-300 overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow-md">
           <img src={pj1} className="w-[100%]" />
           <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-lg tracking-wide font-medium text-center">
