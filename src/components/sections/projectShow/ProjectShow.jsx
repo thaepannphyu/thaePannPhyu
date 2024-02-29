@@ -74,7 +74,7 @@ const ProjectShow = (solo) => {
           </h1>
           <div className="flex my-3 gap-5 mx-auto">
             <a
-              href="https://eduvide.netlify.app"
+              href="https://edu-pro-three.vercel.app/"
               className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded">
               Demo
             </a>
