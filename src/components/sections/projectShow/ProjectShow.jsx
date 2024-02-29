@@ -39,7 +39,7 @@ const ProjectShow = (solo) => {
         data-aos-duration="1000"
         className="cursor-pointer w-[32%] max-lg:w-[45%] max-sm:w-[100%]">
         <a
-          href="https://edu-pro-dashboard2.netlify.app"
+          href="https://edu-pro-dashboard-tawny.vercel.app/"
           className=" card dark:card-shadow duration-300 overflow-hidden py-5 flex flex-col gap-3 bg-[#F7F7FF] dark:bg-[#0B0B13] rounded-md shadow-md">
           <img src={pj2} className="w-[100%]" />
           <h1 className="text-[#0B0B13] dark:text-[#FFFFFF] text-lg tracking-wide font-medium text-center">
@@ -47,7 +47,7 @@ const ProjectShow = (solo) => {
           </h1>
           <div className="flex my-3 gap-5 mx-auto">
             <a
-              href="https://edu-pro-dashboard2.netlify.app"
+              href="https://edu-pro-dashboard-tawny.vercel.app/"
               className="go-up cursor-pointer py-2 px-5 text-white dark:text-black bg-[#0B0B13] dark:bg-white border border-[#0B0B13] dark:border-white hover:bg-transparent dark:hover:bg-transparent hover:text-[#0B0B13] dark:hover:text-white duration-[400ms] font-medium tracking-wide rounded">
               Demo
             </a>
