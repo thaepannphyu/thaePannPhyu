@@ -120,6 +120,9 @@ const Landing = () => {
                     <span className={`text-3xl  py-2 span`}>
                       Junior React Developer
                     </span>
+                    <span className={`text-3xl  py-2 span`}>
+                      Junior PHP Developer
+                    </span>
                   </div>
                 </div>
               </div>
@@ -128,9 +131,9 @@ const Landing = () => {
                 data-aos-duration="1000"
                 data-aos-delay="150"
                 className={`text-[#0B0B13] dark:text-[#b9b9b9]  pb-4 lg:pb-0 md:pb-0`}>
-                I develop the front-end projects, using react framework ,
-                <br /> CSS library like bootstrap,tailwindCSS, mantine, Chakra
-                UI, specialize in front-end language HTML, CSS,JS, SASS.
+                 React framework ,
+                <br /> with  bootstrap,tailwindCSS.  <br />
+                PHP, laravel, git, little bit of docker for image version
               </div>
               {/* btn */}
               <div>

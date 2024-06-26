@@ -17,7 +17,7 @@ const Contact = () => {
           data-aos-duration="1000"
           className="w-[30%] max-lg:w-[100%] flex flex-col gap-3">
           <h1 className=" text-black dark:text-white text-4xl font-medium">
-            What’s your story? Get in touch
+            How to contact
           </h1>
           <p className=" text-gray-800 dark:text-gray-300 font-extralight">
             If You think that I was eligible for your job position. Please
@@ -58,7 +58,7 @@ const Contact = () => {
           data-aos-delay="100"
           className="flex flex-col gap-5 w-[55%] max-lg:w-[100%]">
           <h1 className=" text-black dark:text-white text-2xl font-medium">
-            Say Something
+            Contact Info
           </h1>
           <form className="flex flex-col gap-4">
             <div className="flex max-md:flex-col max-md:gap-4 gap-6">
